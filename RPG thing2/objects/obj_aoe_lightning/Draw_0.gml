@@ -1,0 +1,1 @@
+draw_sprite(spr_lightning_aoe,0,x,y+8);

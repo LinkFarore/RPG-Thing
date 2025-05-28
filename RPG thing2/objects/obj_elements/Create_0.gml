@@ -1,0 +1,1 @@
+elementsArray = [ "fire", "ice", "lightning", "shadow", "holy"]

@@ -1,0 +1,17 @@
+if saving
+{
+	draw_set_color(c_white);
+	draw_set_font(fnt_menu);
+	draw_set_halign(fa_center);
+	draw_set_valign(fa_middle);
+	draw_text(64,32,"Saving...");
+}
+
+if place_meeting(x,y,obj_save_trigger)
+{
+	draw_set_color(c_white);
+	draw_set_font(fnt_menu);
+	draw_set_halign(fa_center);
+	draw_set_valign(fa_middle);
+	draw_text(camera_get_view_width(0)/4,32,"Press 'Backspace' to save");	
+}

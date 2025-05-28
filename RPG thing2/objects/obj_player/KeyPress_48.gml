@@ -1,0 +1,1 @@
+level_point += 5;

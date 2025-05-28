@@ -1,0 +1,1 @@
+part_particles_create(global.ps,x+(irandom_range(-40,40)),y+4,global.pt_shadow_aoe,1);

@@ -1,0 +1,9 @@
+hp = 1;
+weakness = GenerateWeaknesses(["none"]);
+xp_worth = max(floor(hp/player_atk),1);
+inv = false;
+hurt = false;
+hurt_aoe = false;
+stun = false;
+crit = false;
+image_speed = .35;
