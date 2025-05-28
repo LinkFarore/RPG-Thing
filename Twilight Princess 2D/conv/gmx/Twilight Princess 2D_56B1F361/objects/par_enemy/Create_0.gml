@@ -1,0 +1,3 @@
+hurt = false;
+stun = false;
+

@@ -1,0 +1,1 @@
+///Set the timing for random direction change

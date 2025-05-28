@@ -1,0 +1,1 @@
+grab = false; // This object is not being grabbed

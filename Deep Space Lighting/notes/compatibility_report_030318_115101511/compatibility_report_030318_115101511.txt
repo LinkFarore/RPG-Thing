@@ -1,0 +1,965 @@
+Converting GML script: ${project_dir}\scripts\scr_ship_init\scr_ship_init.gml
+Converted description /// @description scr_ship_init(hp,weapon,speed,rate_of_fire,attack,defense,chase_distance,attack_distance)/// @function scr_ship_init
+/// @param hp
+/// @param weapon
+/// @param speed
+/// @param rate_of_fire
+/// @param attack
+/// @param defense
+/// @param chase_distance
+/// @param attack_distance
+Converted string - line 13: 'idle' -> "idle"
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_ship_attack\scr_enemy_ship_attack.gml
+Converted description /// @description scr_enemy_ship_attack()/// @function scr_enemy_ship_attack
+Converted string - line 73: 'chase' -> "chase"
+Converted string - line 81: 'idle' -> "idle"
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_ship_chase\scr_enemy_ship_chase.gml
+Converted description /// @description scr_ship_chase
+Converted string - line 17: 'attack' -> "attack"
+Converted string - line 23: 'idle' -> "idle"
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_ship_idle\scr_enemy_ship_idle.gml
+Converted description /// @description scr_enemy_ship_idle
+Converted string - line 10: 'chase' -> "chase"
+
+Converting GML script: ${project_dir}\scripts\scr_fuel_ship_chase\scr_fuel_ship_chase.gml
+Converted description /// @description scr_ship_chase
+Converted string - line 16: 'attack' -> "attack"
+Converted string - line 19: 'idle' -> "idle"
+
+Converting GML script: ${project_dir}\scripts\scr_fuel_ship_idle\scr_fuel_ship_idle.gml
+Converted description /// @description scr_enemy_ship_idle
+Converted string - line 8: 'chase' -> "chase"
+
+Converting GML script: ${project_dir}\scripts\scr_boss_attack\scr_boss_attack.gml
+Converted description /// @description scr_enemy_ship_attack()/// @function scr_enemy_ship_attack
+Converted string - line 44: 'idle' -> "idle"
+
+Converting GML script: ${project_dir}\scripts\scr_boss_idle\scr_boss_idle.gml
+Converted description /// @description scr_enemy_ship_idle
+Converted string - line 9: 'attack' -> "attack"
+
+Converting GML script: ${project_dir}\scripts\scr_part_star_init\scr_part_star_init.gml
+Converted description /// @description scr_part_star_init()/// @function scr_part_star_init
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_death\scr_enemy_death.gml
+Converted description /// @description scr_enemy_death(crystal_low,crystal_high,scrap_low,scrap_high)/// @function scr_enemy_death
+/// @param crystal_low
+/// @param crystal_high
+/// @param scrap_low
+/// @param scrap_high
+
+Converting GML script: ${project_dir}\scripts\scr_asteroid_death\scr_asteroid_death.gml
+Converted description /// @description scr_enemy_death(crystal_low,crystal_high,scrap_low,scrap_high)/// @function scr_enemy_death
+/// @param crystal_low
+/// @param crystal_high
+/// @param scrap_low
+/// @param scrap_high
+
+Converting GML script: ${project_dir}\scripts\scr_save\scr_save.gml
+Converted description /// @description scr_save();/// @function scr_save
+Converted string - line 12: 'Currency' -> "Currency"
+Converted string - line 12: 'Crystals' -> "Crystals"
+Converted string - line 13: 'Currency' -> "Currency"
+Converted string - line 13: 'Scrap' -> "Scrap"
+Converted string - line 14: 'Currency' -> "Currency"
+Converted string - line 14: 'XP' -> "XP"
+Converted string - line 15: 'Currency' -> "Currency"
+Converted string - line 15: 'MAXXP' -> "MAXXP"
+Converted string - line 16: 'Currency' -> "Currency"
+Converted string - line 16: 'Level_point' -> "Level_point"
+Converted string - line 17: 'Currency' -> "Currency"
+Converted string - line 17: 'Repair' -> "Repair"
+Converted string - line 18: 'Level' -> "Level"
+Converted string - line 18: 'Health' -> "Health"
+Converted string - line 19: 'Level' -> "Level"
+Converted string - line 19: 'Attack' -> "Attack"
+Converted string - line 20: 'Level' -> "Level"
+Converted string - line 20: 'Attack_Spd' -> "Attack_Spd"
+Converted string - line 21: 'Level' -> "Level"
+Converted string - line 21: 'ROF' -> "ROF"
+Converted string - line 22: 'Level' -> "Level"
+Converted string - line 22: 'Engine' -> "Engine"
+Converted string - line 23: 'Level' -> "Level"
+Converted string - line 23: 'Speed' -> "Speed"
+Converted string - line 24: 'Level' -> "Level"
+Converted string - line 24: 'Energy' -> "Energy"
+Converted string - line 25: 'Level' -> "Level"
+Converted string - line 25: 'Defense' -> "Defense"
+Converted string - line 26: 'Level' -> "Level"
+Converted string - line 26: 'Player_Atk' -> "Player_Atk"
+Converted string - line 27: 'Level' -> "Level"
+Converted string - line 27: 'Player_Def' -> "Player_Def"
+Converted string - line 28: 'Level' -> "Level"
+Converted string - line 28: 'Player_Max_Hp' -> "Player_Max_Hp"
+Converted string - line 29: 'Level' -> "Level"
+Converted string - line 29: 'Max_Energy' -> "Max_Energy"
+Converted string - line 30: 'Weapon' -> "Weapon"
+Converted string - line 30: 'Weapon' -> "Weapon"
+Converted string - line 31: 'Weapon' -> "Weapon"
+Converted string - line 31: 'Weapon2' -> "Weapon2"
+Converted string - line 32: 'Position' -> "Position"
+Converted string - line 32: 'X' -> "X"
+Converted string - line 33: 'Position' -> "Position"
+Converted string - line 33: 'Y' -> "Y"
+
+Converting GML script: ${project_dir}\scripts\scr_load\scr_load.gml
+Converted description /// @description scr_load();/// @function scr_load
+Converted string - line 5: 'Currency' -> "Currency"
+Converted string - line 5: 'Crystals' -> "Crystals"
+Converted string - line 6: 'Currency' -> "Currency"
+Converted string - line 6: 'Scrap' -> "Scrap"
+Converted string - line 7: 'Currency' -> "Currency"
+Converted string - line 7: 'XP' -> "XP"
+Converted string - line 8: 'Currency' -> "Currency"
+Converted string - line 8: 'MAXXP' -> "MAXXP"
+Converted string - line 9: 'Currency' -> "Currency"
+Converted string - line 9: 'Level_point' -> "Level_point"
+Converted string - line 10: 'Level' -> "Level"
+Converted string - line 10: 'Health' -> "Health"
+Converted string - line 11: 'Level' -> "Level"
+Converted string - line 11: 'Attack' -> "Attack"
+Converted string - line 12: 'Level' -> "Level"
+Converted string - line 12: 'Attack_Spd' -> "Attack_Spd"
+Converted string - line 13: 'Level' -> "Level"
+Converted string - line 13: 'ROF' -> "ROF"
+Converted string - line 14: 'Level' -> "Level"
+Converted string - line 14: 'Engine' -> "Engine"
+Converted string - line 15: 'Level' -> "Level"
+Converted string - line 15: 'Energy' -> "Energy"
+Converted string - line 16: 'Level' -> "Level"
+Converted string - line 16: 'Defense' -> "Defense"
+Converted string - line 17: 'Level' -> "Level"
+Converted string - line 17: 'Player_Atk' -> "Player_Atk"
+Converted string - line 18: 'Level' -> "Level"
+Converted string - line 18: 'Player_Def' -> "Player_Def"
+Converted string - line 19: 'Level' -> "Level"
+Converted string - line 19: 'Player_Max_Hp' -> "Player_Max_Hp"
+Converted string - line 20: 'Level' -> "Level"
+Converted string - line 20: 'Max_Energy' -> "Max_Energy"
+Converted string - line 21: 'Position' -> "Position"
+Converted string - line 21: 'X' -> "X"
+Converted string - line 22: 'Position' -> "Position"
+Converted string - line 22: 'Y' -> "Y"
+Converted string - line 24: 'Weapon' -> "Weapon"
+Converted string - line 24: 'Weapon' -> "Weapon"
+Converted string - line 25: 'Weapon' -> "Weapon"
+Converted string - line 25: 'Weapon2' -> "Weapon2"
+Converted string - line 26: 'Currency' -> "Currency"
+Converted string - line 26: 'Repair' -> "Repair"
+Converted string - line 27: 'Level' -> "Level"
+Converted string - line 27: 'Speed' -> "Speed"
+
+Converting GML script: ${project_dir}\scripts\scr_move_axis\scr_move_axis.gml
+Converted description /// @description scr_move_axis(xaxis,yaxis,threshold,magnitude,speed)/// @function scr_move_axis
+/// @param xaxis
+/// @param yaxis
+/// @param threshold
+/// @param magnitude
+/// @param speed
+
+Converting GML script: ${project_dir}\scripts\scr_find_planet\scr_find_planet.gml
+Converted description /// @description scr_find_planet(planetID)/// @function scr_find_planet
+/// @param planetID
+
+Converting GML script: ${project_dir}\scripts\scr_level_up\scr_level_up.gml
+Converted description /// @description Level Up
+
+Converting GML script: ${project_dir}\scripts\scr_name_generator\scr_name_generator.gml
+Converted description /// @description ===RANDOM NAME GENERATOR===///
+
+Converting GML script: ${project_dir}\scripts\scr_draw_minimap\scr_draw_minimap.gml
+Converted description /// @description scr_draw_minimap(map_x, map_y, map_range, vis_x, vis_y, angle)/// @function scr_draw_minimap
+/// @param map_x
+/// @param  map_y
+/// @param  map_range
+/// @param  vis_x
+/// @param  vis_y
+/// @param  angle
+
+Converting GML script: ${project_dir}\scripts\draw_healthbar_circular\draw_healthbar_circular.gml
+Converted description /// @description draw_healthbar_circular(center x, center y, radius, start angle, percent health, sprite)/// @function draw_healthbar_circular
+/// @param center x
+/// @param  center y
+/// @param  radius
+/// @param  start angle
+/// @param  percent health
+/// @param  sprite
+
+Converting GML script: ${project_dir}\scripts\scr_part_spark_init\scr_part_spark_init.gml
+Converted description /// @description scr_part_spark_init
+
+Converting GML script: ${project_dir}\scripts\scr_part_explosion_init\scr_part_explosion_init.gml
+Converted description /// @description scr_part_explosion_init()/// @function scr_part_explosion_init
+
+Converting GML script: ${project_dir}\scripts\scr_part_blue_lazer_init\scr_part_blue_lazer_init.gml
+Converted description /// @description scr_part_blue_lazer_init
+
+Converting GML script: ${project_dir}\scripts\scr_part_charge_lazer_init\scr_part_charge_lazer_init.gml
+Converted description /// @description scr_part_blue_lazer_init
+
+Converting GML script: ${project_dir}\scripts\scr_part_player_exhaust_init\scr_part_player_exhaust_init.gml
+Converted description /// @description scr_part_blue_lazer_init
+
+Converting GML script: ${project_dir}\scripts\scr_part_enemy_exhaust_init\scr_part_enemy_exhaust_init.gml
+Converted description /// @description scr_part_blue_lazer_init
+
+Converting GML script: ${project_dir}\scripts\scr_part_yellow_lazer_init\scr_part_yellow_lazer_init.gml
+Converted description /// @description scr_part_yellow_lazer_init
+
+Converting GML script: ${project_dir}\scripts\scr_part_green_lazer_init\scr_part_green_lazer_init.gml
+Converted description /// @description scr_part_green_lazer_init
+
+Converting GML script: ${project_dir}\scripts\scr_part_red_lazer_init\scr_part_red_lazer_init.gml
+Converted description /// @description scr_part_red_lazer_init
+
+Converting GML script: ${project_dir}\scripts\scr_part_explosion_asteroid_init\scr_part_explosion_asteroid_init.gml
+Converted description /// @description scr_part_explosion_init()/// @function scr_part_explosion_init
+
+Converting GML script: ${project_dir}\scripts\scr_store_menu\scr_store_menu.gml
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 5: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\scripts\scr_material_sell_menu\scr_material_sell_menu.gml
+Converted builtin - line 54: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 54: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 54: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 5: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 54: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\scripts\scr_weapon_buy_menu\scr_weapon_buy_menu.gml
+Converted builtin - line 25: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 25: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 25: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 25: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\scripts\ds_map_double_insert\ds_map_double_insert.gml
+Converted description /// @description ds_map_double_insert(parentMap, mapName, mapID, mapKey)/// @function ds_map_double_insert
+/// @param parentMap
+/// @param  mapName
+/// @param  mapID
+/// @param  mapKey
+
+Converting GML script: ${project_dir}\scripts\scr_fetch_planetoid_coords\scr_fetch_planetoid_coords.gml
+Converted description /// @description scr_fetch_planetoid_coords(chunkX,chunkY,chunkSeed,objectType,objectNum)/// @function scr_fetch_planetoid_coords
+/// @param chunkX
+/// @param chunkY
+/// @param chunkSeed
+/// @param objectType
+/// @param objectNum
+
+Converting GML script: ${project_dir}\scripts\scr_generate_chunk_planetoids\scr_generate_chunk_planetoids.gml
+Converted description /// @description scr_generate_chunk_planetoids(chunkX,chunkY,chunkType)/// @function scr_generate_chunk_planetoids
+/// @param chunkX
+/// @param chunkY
+/// @param chunkType
+
+Converting GML script: ${project_dir}\scripts\scr_load_chunk\scr_load_chunk.gml
+Converted description /// @description src_load_chunk(chunkX,chunkY,chunkType)/// @function src_load_chunk
+/// @param chunkX
+/// @param chunkY
+/// @param chunkType
+
+Converting GML script: ${project_dir}\scripts\scr_unload_chunk\scr_unload_chunk.gml
+Converted description /// @description src_unload_chunk(chunkX,chunkY)/// @function src_unload_chunk
+/// @param chunkX
+/// @param chunkY
+
+Converting GML script: ${project_dir}\scripts\scr_spawn_planetoid\scr_spawn_planetoid.gml
+Converted description /// @description scr_spawn_planetoid(planetoidArray,chunkX,chunkY,chunkSeed,objectType,objectNum)/// @function scr_spawn_planetoid
+/// @param planetoidArray
+/// @param chunkX
+/// @param chunkY
+/// @param chunkSeed
+/// @param objectType
+/// @param objectNum
+
+Converting GML script: ${project_dir}\scripts\scr_update_chunks\scr_update_chunks.gml
+Converted description /// @description scr_update_chunks(chunkX, chunkY)/// @function scr_update_chunks
+/// @param chunkX
+/// @param  chunkY
+
+Converting GML script: ${project_dir}\scripts\scr_get_chunk_seed\scr_get_chunk_seed.gml
+Converted description /// @description scr_get_chunk_seed(seed,chunkX,chunkY)/// @function scr_get_chunk_seed
+/// @param seed
+/// @param chunkX
+/// @param chunkY
+
+Converting GML script: ${project_dir}\scripts\scr_load_biome_map\scr_load_biome_map.gml
+Converted description /// @description scr_load_biome_map(mapArray,mapX,mapY,biomeWidth,biomeHeight,biomeType)/// @function scr_load_biome_map
+/// @param mapArray
+/// @param mapX
+/// @param mapY
+/// @param biomeWidth
+/// @param biomeHeight
+/// @param biomeType
+
+Font fnt_gui has been converted to font family Minecraftia (Regular) - Font has been regenerated, small inconsistencies may occur
+Font fnt_gui_small has been converted to font family Minecraftia (Regular) - Font has been regenerated, small inconsistencies may occur
+Font fnt_menu has been converted to font family Minecraftia (Regular) - Font has been regenerated, small inconsistencies may occur
+Font fnt_menu2 has been converted to font family Minecraftia (Regular) - Font has been regenerated, small inconsistencies may occur
+Font fnt_title has been converted to font family Neuropol (Regular) - Font has been regenerated, small inconsistencies may occur
+Converting GML script: ${project_dir}\objects\obj_player\Collision_71f30d7d-5e47-49df-9849-628bae740370.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_player\Collision_1eac4103-72f1-459b-91b2-efc5d5a75a49.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_player\Collision_42fdf070-915e-42a9-b18c-e37b08e52c4a.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_player\Collision_1c9747db-c463-4540-b70f-d34bcbb0c8ed.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_player\Collision_84d84e3a-4122-499a-8de1-febc1c0f71b2.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_player\Collision_209fc191-bc1e-4a95-a960-97b4c568a1ce.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_player\Draw_64.gml
+Converted builtin - line 5: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 11: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 14: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 32: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 35: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 38: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 41: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 44: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 47: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 50: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 53: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 67: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 70: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 82: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 87: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 92: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 97: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 103: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 110: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 129: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 130: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 130: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 131: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 149: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 154: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 186: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 191: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 197: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 202: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 208: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 213: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 217: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 218: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 219: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 5: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 11: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 14: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 21: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 32: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 35: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 38: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 41: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 44: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 47: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 50: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 53: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 67: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 70: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 82: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 87: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 92: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 97: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 103: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 110: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 129: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 130: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 131: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 149: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 154: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 175: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 176: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 177: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 178: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 179: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 186: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 191: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 197: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 202: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 208: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 213: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 217: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 218: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 219: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description Draw the GUI
+
+Converting GML script: ${project_dir}\objects\obj_lazer\Step_0.gml
+Converted builtin - line 4: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_lazer_charge\Step_0.gml
+Converted builtin - line 5: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_lazer_bounce\Step_0.gml
+Converted builtin - line 6: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_lazer_bounce\Collision_e2cf980a-fb20-409c-9470-c9b5f8549a94.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_lazer_homing\Step_0.gml
+Converted builtin - line 17: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_lazer_spec\Step_0.gml
+Converted builtin - line 4: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_lazer2\Step_0.gml
+Converted builtin - line 4: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_lazer_ball\Step_0.gml
+Converted builtin - line 4: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_enemy_lazer\Step_0.gml
+Converted builtin - line 5: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_enemy_missile\Step_2.gml
+Converted description /// @description Create Particles
+
+Converting GML script: ${project_dir}\objects\obj_asteroid_spec\Collision_29dcae4e-fef0-44b9-b976-2d46e7cdbb1f.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_asteroid_spec\Collision_a6ecfa86-8264-4fa0-b207-6e7f19a32245.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_asteroid_spec\Collision_b334b7e3-24a4-4146-a2f2-e8945781a004.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_asteroid_spec\Collision_084c771d-47ac-45a9-bbc3-7af6d6ccff12.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_asteroid_small\Collision_7e88f213-1629-4460-b2e8-0650bb91740e.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_asteroid\Collision_426bce26-4ca7-4ea7-b8e5-7abbe96a3b08.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_asteroid\Collision_34a47be0-2d7a-415c-b33f-54ae6965942a.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_asteroid\Collision_afab67be-4aaf-4d61-bada-4204968ffd38.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_asteroid\Collision_d4c97b85-4389-47f7-a8eb-38e8ffb5eb44.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_asteroid\Collision_795f009b-1658-4ec2-a409-074fc1729980.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_asteroid\Collision_46a87ade-b1e1-42e3-a370-5c763e989a6c.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_asteroid_large\Collision_7e516cfc-6bcd-4ff7-ab9d-ecd45d2e17ac.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_asteroid_large\Collision_ddcb3df7-3fb5-4501-9920-d1ba4132a398.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_asteroid_large\Collision_578f6f09-95a9-4e81-8b66-f8c8e9743f8a.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_asteroid_large\Collision_091c4b87-ead7-4443-87b4-bdbe21f9cac8.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_asteroid_large\Collision_8c90f889-b20f-4cf3-b9da-41b3f4f6f2f2.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_asteroid_large\Collision_7d87938f-70ac-4787-abe8-be56aed01c71.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_gib\Step_0.gml
+Converted builtin - line 116: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_gib\Collision_0bfb6320-8597-4de2-9da5-434f37003b1c.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_gib\Collision_8ae1cd36-c074-4eff-b6e5-11a7a4991efe.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_gib\Collision_0bcc2ef9-939e-4827-b667-60aec4a76d79.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_gib\Collision_a82893e4-676d-4fd9-a079-18436005d42d.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_power_up\Step_0.gml
+Converted builtin - line 5: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_power_up\Collision_038068a9-5765-4e9b-8c31-6cf86ac63f9e.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_power_up\Collision_2aab91fa-e00d-4b51-8d5e-c1165d0bf00e.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_power_up\Collision_85525d65-c675-48f0-8bce-0f54cf5b400e.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_power_up\Collision_d4696ffa-0d04-481f-832e-5f62fccc6eca.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_power_up\Collision_f6cad129-68d1-4af6-a1f9-33f098ac9b69.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_defense_power_up\Step_0.gml
+Converted builtin - line 5: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_defense_power_up\Collision_f49c202d-3d27-4c57-8773-c8f5e293a5d2.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_defense_power_up\Collision_62f20246-a0b5-47ac-a17b-e7ab240288a1.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_defense_power_up\Collision_8fd9cfba-f7c3-41a4-8902-0cf2a2d36465.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_health_up\Step_0.gml
+Converted builtin - line 17: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_health_up\Collision_6fbd356f-cff4-441e-83f7-5726b3013786.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_health_up\Collision_4ef5011d-3bac-4e9c-bcd9-904cd3778020.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_health_up\Collision_47cbf7c7-2b40-4cc8-b467-df83f9fff7b0.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_energy_up\Step_0.gml
+Converted builtin - line 17: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_energy_up\Collision_e0bd8788-43db-461e-8857-af26585ab387.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_energy_up\Collision_56bb85d2-6cf8-4bec-970f-f18f5b0f08b5.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_energy_up\Collision_f425e6e0-2b77-4d30-aa01-c192ef0d2462.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_attack_up\Step_0.gml
+Converted builtin - line 17: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_attack_up\Collision_fcef0e9f-8e94-4a0a-a804-ce8d63d871e3.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_attack_up\Collision_ef6cffab-85bc-4752-a5fc-240c53129379.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_attack_up\Collision_dc01cd9c-f34a-4ebd-9413-7503bb80e44e.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_shield_up\Step_0.gml
+Converted builtin - line 17: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_shield_up\Collision_b211c05c-a5c1-4186-b664-34d841286fca.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_shield_up\Collision_ef5f4de2-8308-43bc-9d26-533b5f25b8e9.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_shield_up\Collision_2d795334-73bd-4d3d-8f6e-35d113c4807c.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_station\Create_0.gml
+Converted description /// @description  Initialize the ship
+Converted string - line 5: 'idle' -> "idle"
+
+Converting GML script: ${project_dir}\objects\obj_station\Draw_64.gml
+Converted builtin - line 17: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 29: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 35: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 41: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 51: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 60: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_station\Draw_0.gml
+Converted builtin - line 7: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  Draw event for the station
+
+Converting GML script: ${project_dir}\objects\obj_station\KeyPress_17.gml
+Converted builtin - line 11: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 11: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  Set selected
+
+Converting GML script: ${project_dir}\objects\obj_ship\Create_0.gml
+Converted description /// @description  Initialize the ship
+
+Converting GML script: ${project_dir}\objects\obj_ship\Collision_be153b89-8135-4164-889d-ab947d3f296e.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_ship\Collision_f8637631-533d-4f59-aa41-9e2ddb8c5ef9.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_enemy_ship\Create_0.gml
+Converted description /// @description  Initialize the ship
+
+Converting GML script: ${project_dir}\objects\obj_enemy_ship\Alarm_0.gml
+Converted description /// @description  Timing for the laser
+
+Converting GML script: ${project_dir}\objects\obj_enemy_ship\Step_0.gml
+Converted description /// @description  Control the the states
+Converted string - line 29: 'chase' -> "chase"
+Converted string - line 31: 'attack' -> "attack"
+Converted string - line 33: 'idle' -> "idle"
+Converted string - line 41: 'attack' -> "attack"
+Converted string - line 41: 'chase' -> "chase"
+
+Converting GML script: ${project_dir}\objects\obj_enemy_ship\Collision_ba09925b-903c-4641-8a7f-574b6a746bba.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_enemy_ship\Collision_31761fcd-6147-48fd-9df1-a26b2cccb6e5.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_enemy_ship\Collision_7472312e-b1e3-48b3-af3d-df29a4c85ccd.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_enemy_ship\Collision_860152f4-215a-4710-8e4f-35d4379488d0.gml
+Converted string - line 14: 'attack' -> "attack"
+
+Converting GML script: ${project_dir}\objects\obj_enemy_ship\Collision_5b69b5b1-f8ee-4754-bb61-081ff9c28fde.gml
+Converted string - line 24: 'attack' -> "attack"
+
+Converting GML script: ${project_dir}\objects\obj_enemy_ship\Collision_254c1799-5200-4872-bbd8-4b1128d94aaa.gml
+Converted string - line 9: 'attack' -> "attack"
+
+Converting GML script: ${project_dir}\objects\obj_enemy_ship\Collision_d745259c-5e7c-47ad-8178-00e1d2172ac9.gml
+Converted string - line 24: 'attack' -> "attack"
+
+Converting GML script: ${project_dir}\objects\obj_enemy_ship\Collision_dd4af26d-a13e-40ca-842c-d579ef8618d5.gml
+Converted string - line 24: 'attack' -> "attack"
+
+Converting GML script: ${project_dir}\objects\obj_enemy_ship\Collision_f96076bc-1ca2-41e5-b66b-f27eeb5c306a.gml
+Converted string - line 24: 'attack' -> "attack"
+
+Converting GML script: ${project_dir}\objects\obj_enemy_ship\Collision_5b0db45b-6176-4a7e-b670-2b0ca7918219.gml
+Converted string - line 24: 'attack' -> "attack"
+
+Converting GML script: ${project_dir}\objects\obj_enemy_boss\Create_0.gml
+Converted description /// @description  Initialize the ship
+
+Converting GML script: ${project_dir}\objects\obj_enemy_boss\Alarm_5.gml
+Converted description /// @description  Timing for the laser
+
+Converting GML script: ${project_dir}\objects\obj_enemy_boss\Alarm_4.gml
+Converted description /// @description  Timing for the laser
+
+Converting GML script: ${project_dir}\objects\obj_enemy_boss\Alarm_0.gml
+Converted description /// @description  Timing for the laser
+
+Converting GML script: ${project_dir}\objects\obj_enemy_boss\Step_0.gml
+Converted description /// @description  Control the the states
+Converted string - line 22: 'attack' -> "attack"
+Converted string - line 27: 'idle' -> "idle"
+
+Converting GML script: ${project_dir}\objects\obj_enemy_boss\Collision_c3a9ab2c-e8ca-4ec2-b3a9-e1df694943d0.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_enemy_boss\Collision_467a806c-c646-438d-963f-b8aea998a5c9.gml
+Converted description /// @description  Collide code
+
+Converting GML script: ${project_dir}\objects\obj_enemy_boss\Collision_6921d7f3-9e3e-4b0c-bbb3-69964cf8d0fd.gml
+Converted string - line 9: 'attack' -> "attack"
+
+Converting GML script: ${project_dir}\objects\obj_enemy_boss\Collision_11b9e49a-c989-4eb5-8c5e-a930e6b5445d.gml
+Converted string - line 9: 'attack' -> "attack"
+
+Converting GML script: ${project_dir}\objects\obj_enemy_boss\Collision_1a8e3b60-7b7d-40ed-aa49-2d723aa7866e.gml
+Converted string - line 9: 'attack' -> "attack"
+
+Converting GML script: ${project_dir}\objects\obj_enemy_boss\Collision_b0946f42-e9f3-4bdd-ba23-65082ff0ecc7.gml
+Converted string - line 9: 'attack' -> "attack"
+
+Converting GML script: ${project_dir}\objects\obj_enemy_boss\Collision_5bfc6ca8-7e96-4138-ac53-4a1df1c5dac2.gml
+Converted string - line 9: 'attack' -> "attack"
+
+Converting GML script: ${project_dir}\objects\obj_enemy_boss\Collision_594d2b5e-4f99-4bed-b6e9-1d55301792c0.gml
+Converted string - line 9: 'attack' -> "attack"
+
+Converting GML script: ${project_dir}\objects\obj_target\Collision_f1cb54d6-b479-4e1a-a38a-d8084bc36644.gml
+Converted string - line 2: 'attack' -> "attack"
+
+Converting GML script: ${project_dir}\objects\obj_enemy_scout\Create_0.gml
+Converted description /// @description  Initialize the ship
+
+Converting GML script: ${project_dir}\objects\obj_enemy_scout2\Create_0.gml
+Converted description /// @description  Initialize the ship
+
+Converting GML script: ${project_dir}\objects\obj_enemy_scout3\Create_0.gml
+Converted description /// @description  Initialize the ship
+
+Converting GML script: ${project_dir}\objects\obj_enemy_fighter\Create_0.gml
+Converted description /// @description  Initialize the ship
+
+Converting GML script: ${project_dir}\objects\obj_enemy_fighter2\Create_0.gml
+Converted description /// @description  Initialize the ship
+
+Converting GML script: ${project_dir}\objects\obj_enemy_fighter3\Create_0.gml
+Converted description /// @description  Initialize the ship
+
+Converting GML script: ${project_dir}\objects\obj_enemy_bomber\Create_0.gml
+Converted description /// @description  Initialize the ship
+
+Converting GML script: ${project_dir}\objects\obj_enemy_bomber2\Create_0.gml
+Converted description /// @description  Initialize the ship
+
+Converting GML script: ${project_dir}\objects\obj_enemy_bomber3\Create_0.gml
+Converted description /// @description  Initialize the ship
+
+Converting GML script: ${project_dir}\objects\obj_enemy_frigate\Create_0.gml
+Converted description /// @description  Initialize the ship
+
+Converting GML script: ${project_dir}\objects\obj_button_next\Mouse_7.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 28: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 30: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 31: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 32: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 33: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 34: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 35: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 37: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 28: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 30: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 31: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 32: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 33: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 34: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 35: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 37: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 28: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 30: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 31: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 32: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 32: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 33: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 33: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 34: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 34: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 35: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 37: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 37: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 1: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 28: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 30: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 31: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 32: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 33: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 34: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 35: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 37: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_button_prev\Mouse_7.gml
+Converted builtin - line 26: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 27: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 28: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 29: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 30: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 31: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 32: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 26: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 27: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 28: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 29: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 30: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 31: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 32: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 26: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 27: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 28: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 28: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 29: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 30: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 31: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 31: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 32: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 32: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 26: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 27: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 28: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 29: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 30: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 31: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 32: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_stats\Step_0.gml
+Converted builtin - line 6: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 6: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_stats\Draw_64.gml
+Converted builtin - line 8: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 11: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 14: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 17: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 27: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 28: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 28: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 29: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 27: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 28: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 29: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_pause_menu\Draw_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_store_menu\Draw_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_levelup_menu\Draw_64.gml
+Converted builtin - line 3: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 3: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 3: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_levelup_menu\Draw_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_material_sell_menu\Draw_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_buy_weapon_menu\Draw_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_planet\Create_0.gml
+Converted description /// @description  Initialize the ship
+Converted string - line 3: 'idle' -> "idle"
+Converted string - line 23: 'name' -> "name"
+Converted string - line 24: 'name' -> "name"
+
+Converting GML script: ${project_dir}\objects\obj_planet\Collision_7bca8319-d0fe-441e-ad6a-da89717a2fbb.gml
+Converted description /// @description  Override the collision event
+
+Converting GML script: ${project_dir}\objects\obj_planet\Mouse_4.gml
+Converted description /// @description  Set selected
+
+Converting GML script: ${project_dir}\objects\obj_planet\Draw_64.gml
+Converted builtin - line 7: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 9: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 9: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_planet\Draw_0.gml
+Converted description /// @description  Draw event for the planet
+
+Converting GML script: ${project_dir}\objects\obj_planet_dummy\Create_0.gml
+Converted string - line 1: 'idle' -> "idle"
+
+Converting GML script: ${project_dir}\objects\obj_planet_dummy\Draw_0.gml
+Converted description /// @description  Draw event for the planet
+
+Converting GML script: ${project_dir}\objects\obj_ps\Create_0.gml
+Converted description /// @description Initialize the particle system
+
+Converting GML script: ${project_dir}\objects\obj_camera\Step_0.gml
+Converted builtin - line 14: view_xview = -(view_wview/2) + x -> __view_set( e__VW.XView, 0, -(view_wview/2) + x )
+Converted builtin - line 15: view_yview = -(view_hview/2) + y -> __view_set( e__VW.YView, 0, -(view_hview/2) + y )
+Converted builtin - line 14: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 15: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_pause\Step_0.gml
+Converted builtin - line 29: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 29: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 29: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 29: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_pause\Draw_64.gml
+Converted builtin - line 9: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 11: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 15: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 21: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 27: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 37: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_gametitle\Draw_0.gml
+Converted builtin - line 1: background_vspeed = .25 -> __background_set( e__BG.VSpeed, 0, .25 )
+
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Missing audiogroup for sound: 'snd_lazer' - setting to default audio group
+Missing audiogroup for sound: 'snd_hit' - setting to default audio group
+Missing audiogroup for sound: 'snd_pickup' - setting to default audio group
+Missing audiogroup for sound: 'snd_explosion' - setting to default audio group
+Missing audiogroup for sound: 'snd_explosion_small' - setting to default audio group
+Missing audiogroup for sound: 'snd_title_music' - setting to default audio group
+Missing audiogroup for sound: 'snd_music_wander' - setting to default audio group
+Missing audiogroup for sound: 'snd_select' - setting to default audio group
+Missing audiogroup for sound: 'snd_select2' - setting to default audio group
+Missing audiogroup for sound: 'snd_music_battle' - setting to default audio group
+Missing audiogroup for sound: 'snd_place' - setting to default audio group
+Missing audiogroup for sound: 'snd_warp' - setting to default audio group
+Missing audiogroup for sound: 'snd_exhaust' - setting to default audio group
+Missing audiogroup for sound: 'snd_shield' - setting to default audio group
+Missing audiogroup for sound: 'snd_enemy_lazer' - setting to default audio group
+Game speed set to 60
+Added compatibility script 'action/action_inherited.gml'
+Added compatibility script 'background/draw_background_tiled.gml'
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'd3d/d3d_transform_add_translation.gml'
+Added compatibility script 'd3d/d3d_transform_stack_pop.gml'
+Added compatibility script 'd3d/d3d_transform_stack_push.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'sound/sound_isplaying.gml'
+Added compatibility script 'sound/sound_play.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'd3d/__init_d3d.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script '__global_object_depths.gml'

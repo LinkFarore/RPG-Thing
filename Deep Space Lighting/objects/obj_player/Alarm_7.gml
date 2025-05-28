@@ -1,0 +1,9 @@
+message_energy = false;
+message_life = false;
+message_attack = false;
+message_shield = false;
+heal_message2 = false;
+heal_message = false;
+message_build_mode = false;
+message_combat_mode = false;
+message_mining_mode = false;

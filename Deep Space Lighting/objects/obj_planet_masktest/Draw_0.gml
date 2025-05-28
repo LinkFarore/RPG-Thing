@@ -1,0 +1,1 @@
+//.draw_sprite_pos(spr_land_mask,0,x,y,1,1,c_white,1)

@@ -1,0 +1,1 @@
+part_particles_create(global.plasma_ps,x+irandom(5)*choose(-1,1),y+irandom(5)*choose(-1,1),global.pt_plasma,1);

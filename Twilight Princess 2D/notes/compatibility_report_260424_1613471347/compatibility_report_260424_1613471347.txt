@@ -1,0 +1,171 @@
+Converting GML script: MACRO: GM_version
+String not found: ConversionLog_ConvertedString 1 '100' "100"
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\scripts\scr_cave_tile\scr_cave_tile.gml
+Converted description /// @description scr_cave_tile()
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\scripts\scr_enemydeath\scr_enemydeath.gml
+Converted description /// @description scr_enemydeath()
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\scripts\scr_boss_death\scr_boss_death.gml
+Converted description /// @description scr_enemydeath()
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\scripts\scr_item_toggle\scr_item_toggle.gml
+Converted description /// @description scr_item_toggle()
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\scripts\scr_part_pot_init\scr_part_pot_init.gml
+Converted description /// @description scr_part_leaf_init
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\scripts\scr_part_potm_init\scr_part_potm_init.gml
+Converted description /// @description scr_part_leaf_init
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\scripts\scr_inputs\scr_inputs.gml
+String not found: ConversionLog_ConvertedString 2 'D' "D"
+String not found: ConversionLog_ConvertedString 3 'A' "A"
+String not found: ConversionLog_ConvertedString 4 'W' "W"
+String not found: ConversionLog_ConvertedString 5 'W' "W"
+String not found: ConversionLog_ConvertedString 6 'S' "S"
+String not found: ConversionLog_ConvertedString 7 'S' "S"
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\scripts\scr_part_spectral_init\scr_part_spectral_init.gml
+Converted description /// @description scr_part_spectral_init
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\scripts\scr_part_enemy_death_init\scr_part_enemy_death_init.gml
+Converted description /// @description scr_part_spectral_init
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\scripts\scr_part_magic_init\scr_part_magic_init.gml
+Converted description /// @description scr_part_spectral_init
+
+GameMaker Studio 1 font texture has been backed up at C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\fonts\fnt_default\fnt_default.gms1.png
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\objects\obj_hero\Create_0.gml
+Converted description /// @description Initialize the player
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\objects\obj_hero\Step_0.gml
+Converted description /// @description Handle Player Movement
+String not found: ConversionLog_ConvertedString 17 'A' "A"
+String not found: ConversionLog_ConvertedString 24 'D' "D"
+String not found: ConversionLog_ConvertedString 31 'W' "W"
+String not found: ConversionLog_ConvertedString 37 'S' "S"
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\objects\obj_player\Create_0.gml
+Converted description /// @description Initialize Variables
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\objects\obj_player\Step_1.gml
+Converted description /// @description Hookshot movement code
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\objects\obj_player\Step_0.gml
+String not found: ConversionLog_ConvertedString 122 'R' "R"
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\objects\obj_player\Draw_64.gml
+Converted builtin - line 6: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted description /// @description Alpha reset
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\objects\obj_rat\Step_0.gml
+Converted description /// @description Health and death
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\objects\parEnemy\Step_1.gml
+Converted description /// @description Health and death
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\objects\obj_enemy\Create_0.gml
+Converted description /// @description Initialize Variables
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\objects\obj_enemy\Step_0.gml
+Converted description /// @description Health and death
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\objects\obj_pot\Destroy_0.gml
+Converted description /// @description Create the particles
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\objects\obj_magic_jar\Destroy_0.gml
+Converted description /// @description Create the particles
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\objects\obj_magic\Step_0.gml
+Converted description /// @description Twilight Particles
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\objects\obj_camera\Step_0.gml
+Converted builtin - line 17: view_xview[0] = x -> __view_set( e__VW.XView, 0, x )
+Converted builtin - line 18: view_yview[0] = y -> __view_set( e__VW.YView, 0, y )
+Converted builtin - line 6: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 6: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 7: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description Position view based on player
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\objects\obj_kaylin\Step_1.gml
+Converted description /// @description health and death
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\objects\obj_ps\Create_0.gml
+Converted description /// @description Initialize the particle system
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\objects\obj_ps\Other_5.gml
+Converted description /// @description Destroy the particles
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\objects\obj_spawner_grass\Step_0.gml
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\objects\obj_spawner_forest\Step_0.gml
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\objects\obj_spawner_desert\Step_0.gml
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\objects\obj_zsv\Create_0.gml
+Converted builtin - line 17: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_wview[0]=240 -> __view_set( e__VW.WView, 0, 240 )
+Converted builtin - line 6: view_hview[0]=160 -> __view_set( e__VW.HView, 0, 160 )
+Converted builtin - line 3: view_visible[0] = true -> __view_set( e__VW.Visible, 0, true )
+Converted builtin - line 7: view_xport[0]=0 -> __view_set( e__VW.XPort, 0, 0 )
+Converted builtin - line 8: view_yport[0]=0 -> __view_set( e__VW.YPort, 0, 0 )
+Converted builtin - line 9: view_wport[0]=240 -> __view_set( e__VW.WPort, 0, 240 )
+Converted builtin - line 10: view_hport[0]=160 -> __view_set( e__VW.HPort, 0, 160 )
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\Twilight Princess 2D\conv\gmx\Twilight Princess 2D_56B1F361\objects\obj_zsv\Step_0.gml
+Converted builtin - line 11: view_xview = view_x1 -> __view_set( e__VW.XView, 0, view_x1 )
+Converted builtin - line 12: view_yview = view_y1 -> __view_set( e__VW.YView, 0, view_y1 )
+Converted builtin - line 1: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 1: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 3: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 3: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 4: view_hview -> __view_get( e__VW.HView, 0 )
+
+Missing audiogroup for sound: 'snd_sword' - setting to default audio group
+Missing audiogroup for sound: 'snd_sword_clang' - setting to default audio group
+Missing audiogroup for sound: 'snd_enemy_die' - setting to default audio group
+Missing audiogroup for sound: 'snd_hurt' - setting to default audio group
+Missing audiogroup for sound: 'snd_heart_container' - setting to default audio group
+Missing audiogroup for sound: 'snd_battle_theme' - setting to default audio group
+Missing audiogroup for sound: 'snd_sword_hit' - setting to default audio group
+Missing audiogroup for sound: 'snd_boss_die' - setting to default audio group
+Missing audiogroup for sound: 'snd_heart' - setting to default audio group
+Missing audiogroup for sound: 'snd_rupee' - setting to default audio group
+Missing audiogroup for sound: 'snd_lowhealth' - setting to default audio group
+Missing audiogroup for sound: 'snd_chain' - setting to default audio group
+Missing audiogroup for sound: 'snd_arrow' - setting to default audio group
+Missing audiogroup for sound: 'snd_bomb_drop' - setting to default audio group
+Missing audiogroup for sound: 'snd_menu_select' - setting to default audio group
+Missing audiogroup for sound: 'snd_bomb_explode' - setting to default audio group
+Missing audiogroup for sound: 'snd_pot_break' - setting to default audio group
+Missing audiogroup for sound: 'snd_boomerang' - setting to default audio group
+Missing audiogroup for sound: 'snd_rock_hit' - setting to default audio group
+Missing audiogroup for sound: 'snd_rock_spit' - setting to default audio group
+Missing audiogroup for sound: 'snd_chest_open' - setting to default audio group
+Missing audiogroup for sound: 'snd_twilight' - setting to default audio group
+Game speed set to 30
+Added compatibility script 'action\action_inherited.gml'
+Added compatibility script 'action\action_move.gml'
+Added compatibility script 'instance\instance_create.gml'
+Added compatibility script 'object\object_get_depth.gml'
+Added compatibility script 'view\__view_get.gml'
+Added compatibility script 'view\__view_set.gml'
+Added compatibility script 'view\__view_set_internal.gml'
+Added compatibility script 'action\__init_action.gml'
+Added compatibility script 'view\__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

@@ -1,0 +1,1 @@
+instance_create(random_range(sprite_get_width(spr_asteroid)*2,room_width-sprite_get_width(spr_asteroid)*2), -150,obj_asteroid_dummy);

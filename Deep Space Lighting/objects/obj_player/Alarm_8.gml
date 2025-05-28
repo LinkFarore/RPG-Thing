@@ -1,0 +1,1 @@
+weapon_sprite = spr_weapon_bound;

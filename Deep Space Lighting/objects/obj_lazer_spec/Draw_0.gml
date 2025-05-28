@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_lazer_spec,0,x,y,1,1,image_angle,draw_color,1);

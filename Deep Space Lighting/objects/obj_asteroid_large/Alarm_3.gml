@@ -1,0 +1,1 @@
+can_mine = true;

@@ -1,0 +1,230 @@
+Converting GML script: MACRO: GM_version
+String not found: ConversionLog_ConvertedString 1 '1.0.0.0' "1.0.0.0"
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\scripts\scr_ship_init\scr_ship_init.gml
+Converted description /// @description scr_ship_init(hp,weapon)/// @param hp
+/// @param weapon
+String not found: ConversionLog_ConvertedString 8 'idle' "idle"
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\scripts\scr_ship_idle\scr_ship_idle.gml
+Converted description /// @description scr_ship_idle
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\scripts\scr_ship_move\scr_ship_move.gml
+Converted description /// @description scr_ship_move
+String not found: ConversionLog_ConvertedString 13 'idle' "idle"
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\scripts\scr_toggle_select\scr_toggle_select.gml
+Converted description /// @description scr_toggle_select(press_x,press_y,release_x,release_y)/// @param press_x
+/// @param press_y
+/// @param release_x
+/// @param release_y
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\scripts\scr_move_view\scr_move_view.gml
+Converted builtin - line 11: view_xview[0] += 4 -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (4) )
+Converted builtin - line 15: view_xview[0] -= 4 -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) - (4) )
+Converted builtin - line 19: view_yview[0] -= 4 -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) - (4) )
+Converted builtin - line 23: view_yview[0] += 4 -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (4) )
+Converted description /// @description scr_move_view()
+String not found: ConversionLog_ConvertedString 4 'D' "D"
+String not found: ConversionLog_ConvertedString 5 'A' "A"
+String not found: ConversionLog_ConvertedString 6 'W' "W"
+String not found: ConversionLog_ConvertedString 7 'S' "S"
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\scripts\scr_enemy_ship_attack\scr_enemy_ship_attack.gml
+Converted description /// @description scr_enemy_ship_attack()
+String not found: ConversionLog_ConvertedString 21 'chase' "chase"
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\scripts\scr_enemy_ship_chase\scr_enemy_ship_chase.gml
+Converted description /// @description scr_ship_chase
+String not found: ConversionLog_ConvertedString 10 'attack' "attack"
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\scripts\scr_enemy_ship_idle\scr_enemy_ship_idle.gml
+Converted description /// @description scr_enemy_ship_idle
+String not found: ConversionLog_ConvertedString 8 'chase' "chase"
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\scripts\scr_part_laser_init\scr_part_laser_init.gml
+Converted description /// @description scr_part_laser_init()
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\scripts\scr_part_enemy_laser_init\scr_part_enemy_laser_init.gml
+Converted description /// @description scr_part_enemy_laser_init()
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\scripts\scr_weapon_init\scr_weapon_init.gml
+Converted description /// @description scr_weapon_init(damage)/// @param damage
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\scripts\scr_station_idle\scr_station_idle.gml
+Converted description /// @description scr_station_idle()
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\scripts\scr_station_selected\scr_station_selected.gml
+Converted description /// @description scr_station_selected()
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\scripts\scr_station_building\scr_station_building.gml
+Converted description /// @description scr_station_building()
+
+GameMaker Studio 1 font texture has been backed up at C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\fonts\fnt_gui\fnt_gui.gms1.png
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_view_controller\Step_0.gml
+Converted description /// @description  Control the view
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_ps\Create_0.gml
+Converted description /// @description  Create the particle system
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_ps\Other_3.gml
+Converted description /// @description  Remove the particles and particle system
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_ship\Create_0.gml
+Converted description /// @description  Initialize the ship
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_ship\Step_0.gml
+Converted description /// @description  Check for death
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_ship\Collision_8e97e2ef-1c5c-477b-9523-41b4fbfd73c9.gml
+Converted description /// @description  Collide code
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_player_ship\Create_0.gml
+Converted description /// @description  Initialize the ship
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_player_ship\Alarm_0.gml
+Converted description /// @description  Timing for the laser
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_player_ship\Step_0.gml
+Converted description /// @description  Control the the states
+String not found: ConversionLog_ConvertedString 10 'move' "move"
+String not found: ConversionLog_ConvertedString 12 'idle' "idle"
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_player_ship\Mouse_56.gml
+Converted description /// @description  Select the ship
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_player_ship\Mouse_54.gml
+Converted description /// @description  Create the target and change to a move state
+String not found: ConversionLog_ConvertedString 10 'move' "move"
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_player_ship\Draw_0.gml
+Converted description /// @description  Draw selected
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_enemy_ship\Create_0.gml
+Converted description /// @description  Initialize the ship
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_enemy_ship\Alarm_0.gml
+Converted description /// @description  Timing for the laser
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_enemy_ship\Step_0.gml
+Converted description /// @description  Control the the states
+String not found: ConversionLog_ConvertedString 10 'chase' "chase"
+String not found: ConversionLog_ConvertedString 12 'attack' "attack"
+String not found: ConversionLog_ConvertedString 14 'idle' "idle"
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_enemy_ship\Mouse_56.gml
+Converted description /// @description  Select the ship
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_enemy_ship\Draw_0.gml
+Converted description /// @description  Draw selected
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_player_worker\Step_0.gml
+Converted description /// @description  Control the worker states
+String not found: ConversionLog_ConvertedString 4 'move' "move"
+String not found: ConversionLog_ConvertedString 6 'idle' "idle"
+String not found: ConversionLog_ConvertedString 8 'mine' "mine"
+String not found: ConversionLog_ConvertedString 11 'mined' "mined"
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_player_worker\Collision_ad961842-02c5-4828-bb87-b613f07094df.gml
+Converted description /// @description  Change to the mine state
+String not found: ConversionLog_ConvertedString 2 'mined' "mined"
+String not found: ConversionLog_ConvertedString 4 'mine' "mine"
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_player_worker\Collision_7c43dd1d-a9da-4d53-848e-131bdae1fd6a.gml
+Converted description /// @description  Change to mined state
+String not found: ConversionLog_ConvertedString 5 'mined' "mined"
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_player_fighter\Create_0.gml
+Converted description /// @description  Initialize the ship
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_enemy_fighter\Create_0.gml
+Converted description /// @description  Initialize the ship
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_mouse\Step_2.gml
+Converted description /// @description  Follow the mouse
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_weapon\Create_0.gml
+Converted description /// @description  Initialize the weapon
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_weapon\Collision_2d25b493-7406-4127-8d61-6eee285c90c6.gml
+Converted description /// @description  Destroy this laser
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_laser\Create_0.gml
+Converted description /// @description  Move
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_laser\Step_0.gml
+Converted description /// @description  Create some particles
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_enemy_weapon\Create_0.gml
+Converted description /// @description  Initialize the weapon
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_enemy_weapon\Collision_fd890639-c208-4f40-813b-56f6e035d747.gml
+Converted description /// @description  Destroy this laser
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_enemy_laser\Create_0.gml
+Converted description /// @description  Move
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_enemy_laser\Step_0.gml
+Converted description /// @description  Create some particles
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_rock\Step_0.gml
+Converted description /// @description  Rotate the rock
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_station\Create_0.gml
+Converted description /// @description  Initialize the ship
+String not found: ConversionLog_ConvertedString 4 'idle' "idle"
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_station\Step_0.gml
+Converted description /// @description  Control state and rotate statioin
+String not found: ConversionLog_ConvertedString 4 'idle' "idle"
+String not found: ConversionLog_ConvertedString 6 'selected' "selected"
+String not found: ConversionLog_ConvertedString 8 'building' "building"
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_station\Collision_e841a5e2-742a-4e76-9186-735012860c44.gml
+Converted description /// @description  Override the collision event
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_station\Mouse_53.gml
+Converted description /// @description  Set selected
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_station\Mouse_7.gml
+Converted description /// @description  Set selected
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_station\Draw_0.gml
+Converted description /// @description  Draw event for the station
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_globals\Create_0.gml
+Converted description /// @description  Initialize the globals
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_globals\Draw_64.gml
+Converted description /// @description  Draw the crystals
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_globals\Draw_0.gml
+Converted description /// @description  Do not draw self
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_ship_creation_button_parent\Create_0.gml
+Converted description /// @description  Initialize the button
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_ship_creation_button_parent\Mouse_11.gml
+Converted description /// @description  Set the hover image/size
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_ship_creation_button_parent\Mouse_10.gml
+Converted description /// @description  Set the hover image/size
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_ship_creation_button_parent\Mouse_4.gml
+Converted description /// @description  Create the ship
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_worker_button\Create_0.gml
+Converted description /// @description  Initialize the worker button
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\RTS_Series_8\conv\gmx\RTS_Series_8_687F303A\objects\obj_fighter_button\Create_0.gml
+Converted description /// @description  Initialize the fighter button
+
+Game speed set to 30
+Added compatibility script 'instance\instance_create.gml'
+Added compatibility script 'object\object_get_depth.gml'
+Added compatibility script 'view\__view_get.gml'
+Added compatibility script 'view\__view_set.gml'
+Added compatibility script 'view\__view_set_internal.gml'
+Added compatibility script 'view\__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

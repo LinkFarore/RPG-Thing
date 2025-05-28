@@ -1,0 +1,10 @@
+depth = -10000;
+
+if spell_menu = false
+{exit;}
+
+if (item_drag != -1) {
+    draw_set_alpha(0.65);
+    draw_sprite(spr_spell_new, item_drag, mouse_x-14, mouse_y-14);
+    draw_set_alpha(1);
+}

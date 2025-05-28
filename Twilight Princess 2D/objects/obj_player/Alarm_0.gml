@@ -1,0 +1,3 @@
+inv = false;
+hurt = false;
+

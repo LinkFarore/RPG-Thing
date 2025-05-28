@@ -1,0 +1,5 @@
+//initialize variables
+yy = 0;
+grab = false;
+percentage = 0;
+

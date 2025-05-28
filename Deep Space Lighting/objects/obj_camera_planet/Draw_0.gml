@@ -1,0 +1,1 @@
+draw_sprite_tiled_ext(bg_grass,0,-x/200,-y/200,1,1,planet_color,1);

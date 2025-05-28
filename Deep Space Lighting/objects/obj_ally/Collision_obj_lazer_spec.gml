@@ -1,0 +1,19 @@
+var dmg = player_attack - defense;
+    
+if dmg <= 0
+{
+dmg = .25;
+}
+
+hp -= dmg/10;
+state = "attack";
+hit = true;
+alarm[3] = 90;
+with(other)
+{
+    instance_destroy();
+    audio_play_sound(snd_hit,1,false);
+}
+
+if (patrol)
+{foe = obj_player;}
