@@ -24,6 +24,6 @@ var start_dir = irandom_range(30,150);
 
 dx = lengthdir_x(start_sp,start_dir);
 dy = lengthdir_y(start_sp,start_dir);
-grav = .35;
+grav = .25;
 bounce_factor = .25;
 fr = .9;

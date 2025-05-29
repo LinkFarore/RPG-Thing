@@ -6,4 +6,3 @@ hurt = false;
 hurt_aoe = false;
 stun = false;
 crit = false;
-image_speed = .35;

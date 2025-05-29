@@ -12,6 +12,5 @@ fearofheights = true;
 can_shoot = false;
 range = 104;
 target = noone;
-image_speed = .25;
 image_xscale = dir;
 

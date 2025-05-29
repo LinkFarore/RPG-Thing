@@ -8,15 +8,11 @@ if ani = true
     {
         case 0: break;
         case 1: if instance_number(obj_bomb) < 3 {instance_create(x,y,obj_bomb);} break;
-        case 2: if alarm[3] = -1
+        case 2: if alarm[3] = -1 && sprite_index != spr_bow
 				{
 					if !(crouch)
 					{
-						switch(dir)
-						{
-						    case -1: arrowleft = instance_create(x,y,obj_arrow); arrowleft.direction = 180; break;
-						    case 1: arrowright = instance_create(x,y,obj_arrow); arrowright.direction = 0; break;
-						}
+						bow_shoot = true;
 					}
 
 					if (crouch)
@@ -28,7 +24,7 @@ if ani = true
 						}
 					}
 					alarm[3] = 5;
-					audio_play_sound(snd_arrow,1,false);
+					
 				} break;
         case 3: if !instance_exists(obj_boomerang)
 				{

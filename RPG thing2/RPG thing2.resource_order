@@ -105,6 +105,7 @@
     {"name":"spr_heart","order":6,"path":"sprites/spr_heart/spr_heart.yy",},
     {"name":"spr_heart_full","order":7,"path":"sprites/spr_heart_full/spr_heart_full.yy",},
     {"name":"scr_part_shadow_aoe_init","order":9,"path":"scripts/scr_part_shadow_aoe_init/scr_part_shadow_aoe_init.yy",},
+    {"name":"spr_bow_crouch","order":3,"path":"sprites/spr_bow_crouch/spr_bow_crouch.yy",},
     {"name":"spr_rupee_gui","order":8,"path":"sprites/spr_rupee_gui/spr_rupee_gui.yy",},
     {"name":"spr_empty_heart","order":9,"path":"sprites/spr_empty_heart/spr_empty_heart.yy",},
     {"name":"spr_numbers","order":10,"path":"sprites/spr_numbers/spr_numbers.yy",},

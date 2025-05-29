@@ -8,7 +8,7 @@ hurt = false;
 stun = false;
 crit = false;
 can_jump = true;
-image_speed = .15;
+image_speed = 0.1;
 
 blocked = noone;
 

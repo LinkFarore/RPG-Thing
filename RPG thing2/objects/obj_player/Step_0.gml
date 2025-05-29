@@ -32,6 +32,7 @@ if (key_potion) && grounded && !healing
 	if potion >= 1 && player_hp < player_maxhp
 	{
 		sprite_index = spr_player_heal;
+		bow_shoot = false;
 		image_index = 0;
 	    image_speed = 0.4;
 		exit;
@@ -56,7 +57,7 @@ if sprite_index = spr_player_heal
 	}
 	else
 	{
-		exit;
+		//exit;
 	}
 }
 
@@ -72,6 +73,56 @@ if healing
 	else
 	{
 		healing = false;	
+	}
+}
+
+//Bow
+if bow_shoot && grounded && sprite_index != spr_bow
+{
+	sprite_index = spr_bow;
+	image_index = 0;
+	image_speed = 1.4;
+	healing = false;
+}
+
+if sprite_index = spr_bow
+{
+	if image_index = 7
+	{
+		switch(dir)
+		{
+		case -1:	arrowleft = instance_create(x,y-6,obj_arrow); 
+					arrowleft.direction = 180; 
+					break;
+		case 1:		arrowright = instance_create(x,y-6,obj_arrow); 
+					arrowright.direction = 0; 
+					break;
+		}
+		sprite_index = spr_player_idle;
+		bow_shoot = false;
+	}
+	else
+	{
+		//exit;
+	}
+}
+else
+{
+	bow_shoot = false;
+}
+
+if vsp != 0 || hsp != 0
+{
+	if sprite_index = spr_bow
+	{
+		bow_shoot = false;
+		sprite_index = spr_player_run;
+	}
+	
+	if sprite_index = spr_player_heal
+	{
+		healing = false;
+		sprite_index = spr_player_run;	
 	}
 }
 
@@ -304,7 +355,7 @@ if sprite_index = spr_player_attack_d && grounded
 }
 
 //Animate
-if sprite_index != spr_player_attack && sprite_index != spr_player_attack_c && sprite_index != spr_player_heal && grounded
+if sprite_index != spr_player_attack && sprite_index != spr_player_attack_c && sprite_index != spr_player_heal && sprite_index != spr_bow && grounded
 {
 can_attack = true;
 }
@@ -313,7 +364,7 @@ if(attack) {exit}
 
 if (move!=0) image_xscale = move;
 
-if (place_meeting(x,y+1,obj_wall)) && !instance_exists(par_sword) && sprite_index != spr_player_heal
+if (place_meeting(x,y+1,obj_wall)) && !instance_exists(par_sword) && sprite_index != spr_player_heal && sprite_index != spr_bow
 {
     if (move!=0) 
     {

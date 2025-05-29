@@ -1,5 +1,5 @@
 action_inherited();
-image_speed = 0.15;
+image_speed = 0.05;
 fearofheights = false;
 hp = 2;
 

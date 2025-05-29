@@ -3,8 +3,8 @@ grid= 32;
 
 /// Customize ///
 //time between shots
-t1 = 50;
-t2 = 60;
+t1 = 100;
+t2 = 120;
 
 //Max distance to attack from 
 triggerDis = 164;

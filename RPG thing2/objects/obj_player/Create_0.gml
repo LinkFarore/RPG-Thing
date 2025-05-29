@@ -25,6 +25,8 @@ grounded = true;
 pulled = false;
 action = 0;
 
+bow_shoot = false;
+
 spell_1 = 1;
 spell_2 = 1;
 spell_3 = 1;
@@ -56,6 +58,7 @@ i_max = 3;
 s_min = 1;
 s_max = 10;
 carry = false;
+
 if !audio_is_playing(snd_battle_theme)
 {
 audio_play_sound(snd_battle_theme,0,true);
@@ -68,4 +71,3 @@ if (global.checkpointR == room)
     x = global.checkpointx;
     y = global.checkpointy;
 }
-

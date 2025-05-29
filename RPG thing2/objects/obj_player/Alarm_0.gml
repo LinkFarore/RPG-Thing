@@ -1,3 +1,2 @@
 inv = false;
 hurt = false;
-

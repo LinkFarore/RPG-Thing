@@ -130,6 +130,7 @@
     {"id":{"name":"spr_heart","path":"sprites/spr_heart/spr_heart.yy",},},
     {"id":{"name":"spr_heart_full","path":"sprites/spr_heart_full/spr_heart_full.yy",},},
     {"id":{"name":"scr_part_shadow_aoe_init","path":"scripts/scr_part_shadow_aoe_init/scr_part_shadow_aoe_init.yy",},},
+    {"id":{"name":"spr_bow_crouch","path":"sprites/spr_bow_crouch/spr_bow_crouch.yy",},},
     {"id":{"name":"spr_rupee_gui","path":"sprites/spr_rupee_gui/spr_rupee_gui.yy",},},
     {"id":{"name":"spr_empty_heart","path":"sprites/spr_empty_heart/spr_empty_heart.yy",},},
     {"id":{"name":"spr_numbers","path":"sprites/spr_numbers/spr_numbers.yy",},},

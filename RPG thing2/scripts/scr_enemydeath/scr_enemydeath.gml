@@ -1,7 +1,7 @@
 /// @description scr_enemydeath()
 function scr_enemydeath() {
 	//effect_create_above(ef_firework,x,y,0,c_black);
-	part_particles_create(global.ps,x,y,global.pt_ed,40);
+	part_particles_create(global.ps,x,y,global.pt_ed,80);
 	audio_play_sound(snd_enemy_die,1,false);
 	
 	if xp_worth = 1

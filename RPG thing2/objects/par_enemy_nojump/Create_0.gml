@@ -9,6 +9,4 @@ vsp = 0;
 fearofheights = 0;
 facing = 0;
 hp = 1;
-image_speed = .5;
 image_index = 1;
-
