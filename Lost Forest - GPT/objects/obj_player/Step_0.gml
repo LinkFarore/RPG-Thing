@@ -124,3 +124,24 @@ if keyboard_check_pressed(vk_tab) && can_pause == true
 	instance_create((__view_get( e__VW.XView, 0 )+__view_get( e__VW.WView, 0 )/3)-12,__view_get( e__VW.YView, 0 )+__view_get( e__VW.HView, 0 )/3-16,obj_inventory);
 	instance_create((__view_get( e__VW.XView, 0 )+__view_get( e__VW.WView, 0 )/3)-12,__view_get( e__VW.YView, 0 )+__view_get( e__VW.HView, 0 )/3-16,obj_spell_bar);
 }
+
+if keyboard_check_pressed(vk_alt)
+{
+	if fog == true && instance_exists(obj_fog)
+	{
+		var fog_machine;
+		
+		fog_machine = instance_nearest(x,y,obj_fog);
+		fog = false;
+		
+		with fog_machine
+		{
+			instance_deactivate_object(obj_fog);
+		}
+	}
+	else
+	{
+		fog = true;
+		instance_activate_object(obj_fog);
+	}
+}

@@ -47,6 +47,8 @@ spell_key_5 = keyboard_check_pressed(ord("5"));
 
 cooldown = false;
 
+fog = true;
+
 /*spell_slot_1 = -1;
 spell_slot_2 = -1;
 spell_slot_3 = -1;

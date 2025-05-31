@@ -128,7 +128,6 @@ state_drag = function() {
                             var xx = x + (i mod row_length) * icon_size;
                             var yy = y - icon_size + (i div row_length) * icon_size;
 
-	
                             if (point_in_rectangle(mx, my, xx, yy-27, xx + icon_size, yy + 35)) {
                                 other.slot_hover = i;
                                 other.inventory_hover = id;
