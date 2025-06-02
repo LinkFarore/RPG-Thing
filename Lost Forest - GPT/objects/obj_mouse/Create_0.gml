@@ -46,7 +46,7 @@ mouse_over = function() {
     // Corrected hover check for spell bar
     if (sbid != -1 && instance_exists(sbid)) {
         with (sbid) {
-            var bar_top = y - icon_size; // Adjust for spell bar's relative position
+            var bar_top = y - 84; // Adjust for spell bar's relative position
             var bar_bottom = bar_top + 12 + (((4) div row_length) + 1) * icon_size;
 
             if (point_in_rectangle(mx, my, x - 6, bar_top, x - 6 + 12 + row_length * icon_size, bar_bottom)) {

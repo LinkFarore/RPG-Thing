@@ -1,0 +1,1 @@
+object = obj_heart_container;

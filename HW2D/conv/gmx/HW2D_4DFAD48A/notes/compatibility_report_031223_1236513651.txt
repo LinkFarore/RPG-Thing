@@ -1,0 +1,124 @@
+Converting GML script: MACRO: GM_version
+String not found: ConversionLog_ConvertedString 1 '100' "100"
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\scripts\scr_player_death\scr_player_death.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 3: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\scripts\scr_level_up\scr_level_up.gml
+Converted description /// @description scr_level_up()
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\scripts\scr_exp_give\scr_exp_give.gml
+Converted description /// @description scr_exp_give()
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\scripts\scr_movement\scr_movement.gml
+Converted description /// @description scr_movement()
+String not found: ConversionLog_ConvertedString 5 'S' "S"
+String not found: ConversionLog_ConvertedString 11 'A' "A"
+String not found: ConversionLog_ConvertedString 17 'W' "W"
+String not found: ConversionLog_ConvertedString 23 'D' "D"
+String not found: ConversionLog_ConvertedString 35 'A' "A"
+String not found: ConversionLog_ConvertedString 35 'D' "D"
+String not found: ConversionLog_ConvertedString 41 'W' "W"
+String not found: ConversionLog_ConvertedString 41 'S' "S"
+String not found: ConversionLog_ConvertedString 48 'S' "S"
+String not found: ConversionLog_ConvertedString 55 'A' "A"
+String not found: ConversionLog_ConvertedString 62 'W' "W"
+String not found: ConversionLog_ConvertedString 69 'D' "D"
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\scripts\scr_item_toggle\scr_item_toggle.gml
+Converted description /// @description scr_item_toggle()
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\scripts\scr_enemy_wander\scr_enemy_wander.gml
+Converted description /// @description scr_enemy_wander()
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\scripts\scr_enemy_attack\scr_enemy_attack.gml
+Converted description /// @description scr_enemy_attack()
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\scripts\scr_sword_control\scr_sword_control.gml
+Converted description /// @description scr_sword_control()
+
+GameMaker Studio 1 font texture has been backed up at C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\fonts\fnt_triforce\fnt_triforce.gms1.png
+GameMaker Studio 1 font texture has been backed up at C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\fonts\fnt_default\fnt_default.gms1.png
+GameMaker Studio 1 font texture has been backed up at C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\fonts\fnt_retro\fnt_retro.gms1.png
+GameMaker Studio 1 font texture has been backed up at C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\fonts\fnt_retro_s\fnt_retro_s.gms1.png
+GameMaker Studio 1 font texture has been backed up at C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\fonts\fnt_rupee\fnt_rupee.gms1.png
+GameMaker Studio 1 font texture has been backed up at C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\fonts\fnt_level\fnt_level.gms1.png
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\objects\obj_octorok\Alarm_0.gml
+Converted description /// @description Projectile Direction Code
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\objects\obj_octorok\Step_0.gml
+Converted description /// @description Health and Death 
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\objects\obj_octorok2\Alarm_0.gml
+Converted description /// @description Projectile Direction Code
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\objects\obj_octorok2\Step_0.gml
+Converted description /// @description Health and Death 
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\objects\obj_moblin_outpost\Alarm_0.gml
+Converted description /// @description Projectile Direction Code
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\objects\obj_moblin_outpost\Step_0.gml
+Converted description /// @description Health check and death
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\objects\obj_gohma\Step_0.gml
+Converted description /// @description Projectile Firing code
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\objects\par_moblin\Step_0.gml
+Converted description /// @description Health and Death 
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\objects\obj_link\Draw_64.gml
+Converted builtin - line 323: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 306: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 306: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 308: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 313: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 323: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description GUI fade
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\objects\obj_impa\Step_0.gml
+Converted description /// @description Health and Death 
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\objects\obj_gameover\Draw_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 20: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\objects\obj_pause\Draw_0.gml
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: C:\Users\User\Documents\GameMakerStudio2\HW2D\conv\gmx\HW2D_4DFAD48A\objects\obj_pause\KeyPress_27.gml
+Converted builtin - line 11: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 11: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Missing audiogroup for sound: 'snd_rupee1' - setting to default audio group
+Missing audiogroup for sound: 'snd_bush_cut' - setting to default audio group
+Game speed set to 30
+Added compatibility script 'action\action_effect.gml'
+Added compatibility script 'action\action_if_aligned.gml'
+Added compatibility script 'action\action_if_variable.gml'
+Added compatibility script 'action\action_move.gml'
+Added compatibility script 'action\action_move_point.gml'
+Added compatibility script 'action\action_reverse_xdir.gml'
+Added compatibility script 'action\action_reverse_ydir.gml'
+Added compatibility script 'action\action_set_motion.gml'
+Added compatibility script 'action\action_set_relative.gml'
+Added compatibility script 'action\action_snap.gml'
+Added compatibility script 'action\action_sprite_color.gml'
+Added compatibility script 'instance\instance_create.gml'
+Added compatibility script 'object\object_get_depth.gml'
+Added compatibility script 'sound\sound_play.gml'
+Added compatibility script 'view\__view_get.gml'
+Added compatibility script 'action\__init_action.gml'
+Added compatibility script 'view\__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
