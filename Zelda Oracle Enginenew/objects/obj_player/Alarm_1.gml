@@ -19,8 +19,3 @@ if item = 3
         case 270: fireballdown = instance_create(x,y,obj_fireball); fireballdown.direction = direction; break;
     }
 }
-
-
-
-
-
