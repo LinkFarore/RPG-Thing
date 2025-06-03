@@ -27,7 +27,7 @@
   "origin": 4,
   "parent": {
     "name": "Octorok",
-    "path": "folders/Sprites/Enemys/Octorok.yy",
+    "path": "folders/Sprites/Enemies/Octorok.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

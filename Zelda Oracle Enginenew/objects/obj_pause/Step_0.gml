@@ -12,11 +12,8 @@ if keyboard_check_pressed(vk_f4) || gamepad_button_check_pressed(0,gp_select)
 
 if keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(0,gp_start)
 {
-    if room = rm_menu {exit}
     if room = rm_initialize {exit}
     if room = rm_title {exit}
-    if room = rm_credits {exit}
-    if room = rm_costume {exit}
     
     if (!pause)
     {

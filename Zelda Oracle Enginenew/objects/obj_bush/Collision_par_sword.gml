@@ -1,6 +1,5 @@
 if cut = false{
 image_speed = .45;
-instance_create(x,y,obj_bush_cut);
 cut = true;
 solid = false;
 

@@ -1,4 +1,4 @@
-with(obj_link)
+with(obj_player)
 {
 health = global.maxhealth;
 }

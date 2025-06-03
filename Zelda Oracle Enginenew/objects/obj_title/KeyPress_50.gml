@@ -1,0 +1,1 @@
+global.costume = 1;

@@ -27,7 +27,7 @@
   "origin": 4,
   "parent": {
     "name": "Darknut",
-    "path": "folders/Sprites/Enemys/Darknut.yy",
+    "path": "folders/Sprites/Enemies/Darknut.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

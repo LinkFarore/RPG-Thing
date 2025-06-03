@@ -1,5 +1,5 @@
 if (reverse = 1)
 {
-instance_change(obj_boomerang_r,true);
+	speed = 6;	
+	move_towards_point(obj_player.x,obj_player.y,speed);
 }
-

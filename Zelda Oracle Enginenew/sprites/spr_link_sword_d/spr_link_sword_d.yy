@@ -61,7 +61,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"910ed55b-ea13-4b58-9f2c-fe13acd4a51a","path":"sprites/spr_link_sword_d/spr_link_sword_d.yy",},},},"Disabled":false,"id":"e4cd2e42-5a98-4bd5-b2cc-fa55aee4b219","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 21,
     "yorigin": 8,

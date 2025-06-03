@@ -27,7 +27,7 @@
   "origin": 4,
   "parent": {
     "name": "beta",
-    "path": "folders/Sprites/Enemys/moblin/beta.yy",
+    "path": "folders/Sprites/Enemies/moblin/beta.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -9,7 +9,7 @@ switch(state)
 }
 }
 
-target = obj_link;
+target = obj_player;
 //instance_nearest(x,y,obj_keep_allied);
 
 if distance_to_object(target) <= 300

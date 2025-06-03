@@ -18,6 +18,4 @@ function scr_enemy_wander() {
 	    }
 	}
 
-
-
 }

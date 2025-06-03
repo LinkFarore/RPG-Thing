@@ -27,7 +27,7 @@
   "origin": 4,
   "parent": {
     "name": "Stalfos",
-    "path": "folders/Sprites/Enemys/Stalfos.yy",
+    "path": "folders/Sprites/Enemies/Stalfos.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -66,7 +66,7 @@ sprite_index = spr_octorok_d
 
 if hspeed < 0 && vspeed = 0
 {
-    if distance_to_object(obj_link) < 64
+    if distance_to_object(obj_player) < 64
     {
         if alarm[0] = -1
         {
@@ -77,7 +77,7 @@ if hspeed < 0 && vspeed = 0
 
 if hspeed > 0 && vspeed = 0
 {
-    if distance_to_object(obj_link) < 64
+    if distance_to_object(obj_player) < 64
     {
         if alarm[0] = -1
         {
@@ -88,7 +88,7 @@ if hspeed > 0 && vspeed = 0
 
 if hspeed = 0 && vspeed < 0
 {
-    if distance_to_object(obj_link) < 64
+    if distance_to_object(obj_player) < 64
     {
         if alarm[0] = -1
         {
@@ -99,7 +99,7 @@ if hspeed = 0 && vspeed < 0
 
 if hspeed = 0 && vspeed > 0
 {
-    if distance_to_object(obj_link) < 64
+    if distance_to_object(obj_player) < 64
     {
         if alarm[0] = -1
         {

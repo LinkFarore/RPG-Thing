@@ -1,6 +1,6 @@
 /// @description Projectile Firing code
 
-if distance_to_object(obj_link) < 120
+if distance_to_object(obj_player) < 120
     {
         if alarm[0] = -1
         {

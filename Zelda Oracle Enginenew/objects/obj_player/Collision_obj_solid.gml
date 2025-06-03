@@ -1,3 +1,5 @@
-x = xprevious;
-y = yprevious;
-
+if (other.solid == true)
+{
+    x = xprevious;
+    y = yprevious;
+}

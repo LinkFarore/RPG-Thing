@@ -78,6 +78,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tilesets","folderPath":"folders/Sprites/tilesets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Building","folderPath":"folders/Sprites/Building.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Instructions.pdf","CopyToMask":9223372036854775807,"filePath":"datafiles",},
@@ -148,6 +149,7 @@
     {"id":{"name":"rm_planet","path":"rooms/rm_planet/rm_planet.yy",},},
     {"id":{"name":"spr_turret","path":"sprites/spr_turret/spr_turret.yy",},},
     {"id":{"name":"scr_ally_patrol","path":"scripts/scr_ally_patrol/scr_ally_patrol.yy",},},
+    {"id":{"name":"Sprite203","path":"sprites/Sprite203/Sprite203.yy",},},
     {"id":{"name":"spr_frigate_dead","path":"sprites/spr_frigate_dead/spr_frigate_dead.yy",},},
     {"id":{"name":"spr_miner","path":"sprites/spr_miner/spr_miner.yy",},},
     {"id":{"name":"spr_sphere","path":"sprites/spr_sphere/spr_sphere.yy",},},

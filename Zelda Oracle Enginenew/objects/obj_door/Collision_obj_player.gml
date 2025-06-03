@@ -1,5 +1,5 @@
-obj_link.x = target_x;
-obj_link.y = target_y;
+obj_player.x = target_x;
+obj_player.y = target_y;
 room_goto(target_r);
 
 

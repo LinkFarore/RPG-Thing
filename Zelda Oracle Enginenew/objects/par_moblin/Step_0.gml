@@ -51,4 +51,8 @@ if state = enemy_state.wander
         alarm[0] = 90;
     }
 }
+else
+{
+	move_snap(16,16)	
+}
 
