@@ -3,11 +3,11 @@ if !instance_exists(obj_build_menu) && keyboard_check(ord("Q"))
 	instance_create(x,y,obj_build_menu);
 }
 
-key_right = keyboard_check_pressed(vk_right) || mouse_wheel_up();
-key_left = keyboard_check_pressed(vk_left) || mouse_wheel_down();
+key_up = keyboard_check_pressed(vk_right) || mouse_wheel_up();
+key_down = keyboard_check_pressed(vk_left) || mouse_wheel_down();
 
-key_up = keyboard_check_pressed(vk_up);
-key_down = keyboard_check_pressed(vk_down);
+key_right= keyboard_check_pressed(vk_up);
+key_left = keyboard_check_pressed(vk_down);
 
 if (key_right)
 {object += 1}
@@ -15,11 +15,11 @@ if (key_right)
 if (key_left)
 {object -= 1}
 
-if object>2
+if object>3
 {object = 0;}
 
 if object<0
-{object = 2;}
+{object = 3;}
 
 if (key_up)
 {direction += 90;}
@@ -42,6 +42,13 @@ if object = 0 || object = 1
 if object = 2
 {
 	sprite_index = spr_solar;
+	image_index = 0;
+	image_angle = direction;
+}
+
+if object = 3
+{
+	sprite_index = spr_hangar;
 	image_index = 0;
 	image_angle = direction;
 }
@@ -75,9 +82,16 @@ else
 		image_index = 0;
 		image_angle = direction;
 	}
+	
+	if object = 3
+	{
+		sprite_index = spr_hangar;
+		image_index = 0;
+		image_angle = direction;
+	}
 }
 
-if object = 2
+if object = 2 || object = 3
 {
 	var dir = direction; // or however your object determines its facing direction
 
@@ -133,6 +147,11 @@ if can_build && mouse_check_button(mb_left) && obj_player.current_state == "buil
                 crystals -= 5;
                 break;
 		case 2: var solar = instance_create(obj_build_cursor.x,obj_build_cursor.y,obj_solar);
+				solar.direction = direction;
+                crystals -= 5;
+				scrap -= 5;
+                break;
+		case 3: var solar = instance_create(obj_build_cursor.x,obj_build_cursor.y,obj_hangar);
 				solar.direction = direction;
                 crystals -= 5;
 				scrap -= 5;
