@@ -18,10 +18,13 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Building",
+    "path": "folders/Objects/Building.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "par_space_build",
+    "path": "objects/par_space_build/par_space_build.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

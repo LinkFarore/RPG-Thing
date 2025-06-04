@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_space_wall",
+  "name": "obj_solar",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
@@ -41,8 +41,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_tiles",
-    "path": "sprites/spr_tiles/spr_tiles.yy",
+    "name": "spr_solar",
+    "path": "sprites/spr_solar/spr_solar.yy",
   },
   "spriteMaskId": null,
   "visible": true,

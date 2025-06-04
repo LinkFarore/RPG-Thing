@@ -3,6 +3,7 @@ image_index = 0;
 depth = -100000
 can_build = true;
 object = 0;
+direction = 0;
 
 if instance_exists(obj_mouse)
 {
