@@ -125,7 +125,7 @@ if object = 2 || object = 3
 	    // ...and the back (opposite direction) has a wall
 	    var wall_behind = place_meeting(x + dx_opposite, y + dy_opposite, obj_space_wall);
 
-	    if (clear_front && clear_left && clear_right && wall_behind) 
+	    if (clear_front && wall_behind) //(clear_front && clear_left && clear_right && wall_behind) 
 		{
 	        can_build = true;
 	    }
