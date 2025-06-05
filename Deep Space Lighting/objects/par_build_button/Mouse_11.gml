@@ -1,0 +1,1 @@
+draw_scale = 1;

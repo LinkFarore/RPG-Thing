@@ -6,7 +6,14 @@ if instance_exists(obj_player)
 	switch(obj_player.current_state)
 	{
 		case "building":
-		instance_destroy();
+		if !instance_exists(obj_button_create) || !instance_exists(par_build_button) 
+		{
+			if keyboard_check(vk_tab)
+			{
+				instance_create(mouse_x,mouse_y,obj_button_create);
+			}
+		}
+		//instance_destroy();
 		break;
 		
 		case "combat": 
