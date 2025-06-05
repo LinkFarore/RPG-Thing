@@ -22,4 +22,13 @@ if !instance_exists(par_build_button)
 	}
 }
 
+if instance_exists(obj_build_cursor)
+{
+	with(obj_build_cursor)
+	{
+		instance_destroy();	
+	}
+	instance_create(mouse_x,mouse_y,obj_mouse);
+}
+
 instance_destroy();

@@ -1,8 +1,3 @@
-if !instance_exists(obj_build_menu) && keyboard_check(ord("Q"))
-{
-	instance_create(x,y,obj_build_menu);
-}
-
 key_up = keyboard_check_pressed(vk_right) || mouse_wheel_up();
 key_down = keyboard_check_pressed(vk_left) || mouse_wheel_down();
 
@@ -62,34 +57,27 @@ else
     can_build = true;
 }
 
-if instance_exists(obj_build_menu)
+
+if object = 0 || object = 1
 {
-	can_build = false;
-	sprite_index = spr_mouse;
-	image_index = 1;
+sprite_index = spr_build_cursor
+image_index = object;
 }
-else
+	
+if object = 2
 {
-	if object = 0 || object = 1
-	{
-	sprite_index = spr_build_cursor
-	image_index = object;
-	}
-	
-	if object = 2
-	{
-		sprite_index = spr_solar;
-		image_index = 0;
-		image_angle = direction;
-	}
-	
-	if object = 3
-	{
-		sprite_index = spr_hangar;
-		image_index = 0;
-		image_angle = direction;
-	}
+	sprite_index = spr_solar;
+	image_index = 0;
+	image_angle = direction;
 }
+	
+if object = 3
+{
+	sprite_index = spr_hangar;
+	image_index = 0;
+	image_angle = direction;
+}
+
 
 if object = 2 || object = 3
 {
@@ -163,16 +151,31 @@ if can_build && mouse_check_button(mb_left) && obj_player.current_state == "buil
 x = mouse_x;
 y = mouse_y;
 
-if !(place_snapped(32,32)) && !instance_exists(obj_build_menu)
+if !(place_snapped(32,32))
 {
 move_snap(32,32);
 }
 
 //check to see if no longer in build mode
-if instance_exists(obj_player)
+if instance_exists(obj_player) && keyboard_check(ord("W"))
 {
     if obj_player.current_state != "building"
     {
+		with(obj_player)
+		{
+				
+		}
+		instance_create(mouse_x,mouse_y,obj_mouse);
+        instance_destroy();
+    }
+	
+	if obj_player.current_state = "building"
+    {
+		with(obj_player)
+		{
+			obj_player.current_state = "menu";
+		}
+		instance_create(mouse_x,mouse_y,obj_button_create);
 		instance_create(mouse_x,mouse_y,obj_mouse);
         instance_destroy();
     }

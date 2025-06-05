@@ -186,6 +186,13 @@ if keyboard_check_pressed(vk_tab)// This should be repurposed to a state system
 		message_combat_mode = false;
 		message_mining_mode = false;
 		alarm[6] = 120;
+		if instance_exists(obj_mouse)
+		{
+			with(obj_mouse)
+			{
+				instance_destroy();	
+			}
+		}
 	}
 	else
 	{
