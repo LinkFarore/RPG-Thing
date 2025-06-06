@@ -8,7 +8,7 @@ if instance_exists(obj_player)
 		case "building":
 		if !instance_exists(obj_button_create) || !instance_exists(par_build_button) 
 		{
-			if keyboard_check(ord("W"))
+			if keyboard_check(ord("Q"))
 			{
 				instance_create(mouse_x,mouse_y,obj_button_create);
 				with obj_player
@@ -26,6 +26,15 @@ if instance_exists(obj_player)
 		
 		case "menu": 
 		image_index = 0;
+		
+		if keyboard_check_released(ord("Q"))
+		{
+			instance_create(mouse_x,mouse_y,obj_build_cursor);
+			with obj_player
+			{
+				obj_player.current_state = "building";	
+			}
+		}
 		break;
 		
 		case "mining":

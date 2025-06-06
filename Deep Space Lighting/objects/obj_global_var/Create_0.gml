@@ -63,6 +63,8 @@ engine_part = 0;
 weapon_part = 0;
 player_reputation = 1;
 
+global.build_menu_release = true;
+
 global.temp_r_ex = 127;
 global.temp_g_ex = 127;
 global.temp_b_ex = 127;

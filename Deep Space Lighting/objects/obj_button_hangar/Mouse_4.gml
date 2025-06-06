@@ -13,7 +13,7 @@ if !instance_exists(obj_build_cursor)
 		}
 	}
 	var cursor = instance_create(x,y,obj_build_cursor);
-	cursor.object = 0;
+	cursor.object = 3;
 	cursor.can_build = false;
 	cursor.alarm[0] = 2;
 }

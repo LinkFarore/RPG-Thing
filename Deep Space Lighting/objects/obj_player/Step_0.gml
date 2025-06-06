@@ -26,6 +26,16 @@ key_shoot = mouse_check_button(mb_left);
 key_shield = mouse_check_button(mb_right);
 key_mine = keyboard_check_pressed(vk_control);
 
+if keyboard_check_pressed(ord("Q"))
+{
+	global.build_menu_release = false;
+}
+
+if keyboard_check_released(ord("Q"))
+{
+	global.build_menu_release = true;
+}
+
 //Set the current Chunk
 current_chunk_x = floor(x / chunk_size);
 current_chunk_y = floor(y / chunk_size);
@@ -200,6 +210,14 @@ if keyboard_check_pressed(vk_tab)// This should be repurposed to a state system
 		message_build_mode = false;
 		message_combat_mode = true;
 		message_mining_mode = false;
+		if instance_exists(obj_build_cursor)
+		{
+			with(obj_build_cursor)
+			{
+				instance_destroy();	
+			}
+			instance_create(mouse_x,mouse_y,obj_mouse);
+		}
 		alarm[6] = 120;
 	}
 }

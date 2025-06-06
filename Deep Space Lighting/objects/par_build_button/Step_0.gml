@@ -1,4 +1,4 @@
-if !keyboard_check(ord("W"))
+if !keyboard_check(ord("Q"))
 {
 	instance_destroy();	
 }

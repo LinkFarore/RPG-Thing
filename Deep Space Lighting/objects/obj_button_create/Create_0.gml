@@ -2,13 +2,13 @@ if !instance_exists(par_build_button)
 {
 	button_distance = 128;
 	button_object[0] = obj_button_wall;
-	button_object[1] = obj_button_wall;
-	button_object[2] = obj_button_wall;
-	button_object[3] = obj_button_wall;
+	button_object[1] = obj_button_wall2;
+	button_object[2] = obj_button_solar;
+	button_object[3] = obj_button_hangar;
 	button_object[4] = obj_button_wall;
-	button_object[5] = obj_button_wall;
-	button_object[6] = obj_button_wall;
-	button_object[7] = obj_button_wall;
+	button_object[5] = obj_button_wall2;
+	button_object[6] = obj_button_solar;
+	button_object[7] = obj_button_hangar;
 	button_count = array_length_1d(button_object);
 	button_section_size = 360/button_count;
 	button_xpos[0] = 0;

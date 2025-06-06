@@ -4,6 +4,14 @@ key_down = keyboard_check_pressed(vk_left) || mouse_wheel_down();
 key_right= keyboard_check_pressed(vk_up);
 key_left = keyboard_check_pressed(vk_down);
 
+if obj_player.current_state = "building" && instance_exists(obj_mouse)
+{
+	with(obj_mouse)
+	{
+		instance_destroy();
+	}
+}
+
 if (key_right)
 {object += 1}
 
@@ -157,7 +165,7 @@ move_snap(32,32);
 }
 
 //check to see if no longer in build mode
-if instance_exists(obj_player) && keyboard_check(ord("W"))
+if instance_exists(obj_player) && keyboard_check(ord("Q")) && global.build_menu_release
 {
     if obj_player.current_state != "building"
     {
