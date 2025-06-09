@@ -9,3 +9,6 @@ dir = image_angle;
 enemy_spd = 2;
 
 alarm[0] = 60;
+
+object = obj_enemy_aggro;
+owner = id; // default to self

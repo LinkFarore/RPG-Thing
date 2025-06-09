@@ -100,7 +100,7 @@ if instance_number(obj_food) < 1000
 	}
 }
 
-if instance_number(obj_enemy) < 8
+if instance_number(obj_enemy) < 1
 {
 	var x_spawn;
 	var y_spawn;
@@ -114,7 +114,7 @@ if instance_number(obj_enemy) < 8
 	}
 }
 
-if instance_number(obj_enemy_aggro) < 8
+if instance_number(obj_enemy_aggro) < 24
 {
 	var x_spawn;
 	var y_spawn;
@@ -128,7 +128,7 @@ if instance_number(obj_enemy_aggro) < 8
 	}
 }
 
-if instance_number(obj_enemy_flee) < 8
+if instance_number(obj_enemy_flee) < 2
 {
 	var x_spawn;
 	var y_spawn;
@@ -139,5 +139,19 @@ if instance_number(obj_enemy_flee) < 8
 	if place_empty(x_spawn,y_spawn)
 	{
 		instance_create_layer(x_spawn+(choose(-1,1)*player_size),y_spawn+(choose(-1,1)*player_size),0,obj_enemy_flee);
+	}
+}
+
+if instance_number(obj_virus) < 12
+{
+	var x_spawn;
+	var y_spawn;
+	
+	x_spawn = x+irandom_range(choose(-1,1)*500,choose(-1,1)*1000);
+	y_spawn = y+irandom_range(choose(-1,1)*500,choose(-1,1)*1000);
+	
+	if place_empty(x_spawn,y_spawn)
+	{
+		instance_create_layer(x_spawn+(choose(-1,1)*player_size),y_spawn+(choose(-1,1)*player_size),0,obj_virus);
 	}
 }

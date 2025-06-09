@@ -57,3 +57,17 @@ if instance_number(obj_food) < 800
 		instance_create_layer(x_spawn+(choose(-1,1)*enemy_size),y_spawn+(choose(-1,1)*enemy_size),0,obj_food);
 	}
 }
+
+var virus_eat = collision_circle(x,y,enemy_size+border_size,obj_virus,true,true);
+if virus_eat != noone
+{
+	
+	if virus_eat.virus_trigger_size > enemy_size
+	{
+	    with (virus_eat) 
+		{
+			instance_destroy();
+	    }
+		split_into_cells(8);
+	}
+}

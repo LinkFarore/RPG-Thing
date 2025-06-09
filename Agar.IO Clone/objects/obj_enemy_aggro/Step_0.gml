@@ -53,6 +53,20 @@ if enemy_eat != noone
 	}
 }
 
+var virus_eat = collision_circle(x,y,enemy_size+border_size,obj_virus,true,true);
+if virus_eat != noone
+{
+	
+	if virus_eat.virus_trigger_size > enemy_size
+	{
+	    with (virus_eat) 
+		{
+			instance_destroy();
+	    }
+		split_into_cells(8);
+	}
+}
+
 if instance_number(obj_food) < 800
 {
 	var x_spawn;

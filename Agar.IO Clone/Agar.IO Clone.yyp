@@ -36,14 +36,17 @@
   "resources": [
     {"id":{"name":"obj_food_large","path":"objects/obj_food_large/obj_food_large.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
+    {"id":{"name":"obj_virus","path":"objects/obj_virus/obj_virus.yy",},},
     {"id":{"name":"bgrd_grid","path":"sprites/bgrd_grid/bgrd_grid.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_enemy_aggro","path":"objects/obj_enemy_aggro/obj_enemy_aggro.yy",},},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"spr_food","path":"sprites/spr_food/spr_food.yy",},},
     {"id":{"name":"par_enemy","path":"objects/par_enemy/par_enemy.yy",},},
     {"id":{"name":"obj_food","path":"objects/obj_food/obj_food.yy",},},
     {"id":{"name":"obj_enemy_flee","path":"objects/obj_enemy_flee/obj_enemy_flee.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
+    {"id":{"name":"spr_virus","path":"sprites/spr_virus/spr_virus.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

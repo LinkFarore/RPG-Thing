@@ -1,13 +1,13 @@
 // === THREAT ASSESSMENT ===
 var flee = false;
 var threat = noone;
-var min_threat_dist = 99999;
+var min_threat_dist = 300;
 
 // Scan for threatening enemies
 with (par_enemy) {
     if id != other.id && enemy_size > other.enemy_size + other.enemy_size / 4 {
         var dist = point_distance(other.x, other.y, x, y);
-        if dist < 400 && dist < min_threat_dist {
+        if dist < 300 && dist < min_threat_dist {
             threat = id;
             min_threat_dist = dist;
         }
@@ -48,7 +48,7 @@ else {
     var food = instance_nearest(x, y, obj_food);
     var prey = noone;
     var best_prey = noone;
-    var best_dist = 99999;
+    var best_dist = 300;
 
     // Find a prey target
     with (par_enemy) {
@@ -97,4 +97,19 @@ if enemy_eat != noone && enemy_eat != id {
         border_size = enemy_size / 12;
         with enemy_eat instance_destroy();
     }
+}
+
+var virus_eat = collision_circle(x,y,enemy_size+border_size,obj_virus,true,true);
+if virus_eat != noone
+{
+	
+	if enemy_size > virus_eat.virus_trigger_size * 1.3
+
+	{
+	    with (virus_eat) 
+		{
+			instance_destroy();
+	    }
+		split_into_cells(8);
+	}
 }

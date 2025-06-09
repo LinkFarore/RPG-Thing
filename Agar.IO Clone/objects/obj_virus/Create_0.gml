@@ -1,0 +1,1 @@
+virus_trigger_size = 24;
