@@ -3,7 +3,8 @@ friction = 0.03;
 player_maxhp = 10;
 hp = player_maxhp;
 
-player_size = 16;
+player_size = 8;
+border_size = player_size/10;
 
 turn_speed = 5;
 dir = image_angle;
@@ -16,3 +17,5 @@ death = false;
 
 //Create the camera
 instance_create_layer(x,y,0,obj_camera);
+
+alarm[0] = 60;

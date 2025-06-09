@@ -2,6 +2,8 @@ if (instance_exists(target)) {
     // --- Mouse offset logic ---
     var mx = mouse_x;
     var my = mouse_y;
+	
+	mouse_influence_dist = view_zoom*100;
 
     var dist = point_distance(target.x, target.y, mx, my);
     var dir = point_direction(target.x, target.y, mx, my);
@@ -27,8 +29,8 @@ if (instance_exists(target)) {
     view_zoom = lerp(view_zoom, zoom_target, 0.1); // Smooth interpolation
 
     // Resize camera
-    var new_w = base_view_width * view_zoom;
-    var new_h = base_view_height * view_zoom;
+    var new_w = base_view_width * (view_zoom*3);
+    var new_h = base_view_height * (view_zoom*3);
     camera_set_view_size(cam, new_w, new_h);
 
     // Center camera

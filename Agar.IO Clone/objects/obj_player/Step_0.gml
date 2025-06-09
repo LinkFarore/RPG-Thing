@@ -57,10 +57,87 @@ if food_eat != noone
 	{
 		instance_destroy();	
 	}
-	player_size += 1;
+	player_size += .3;
+	border_size = player_size/12;
 }
 
-if instance_number(obj_food) < 300
+var food_eat_large = collision_circle(x,y,player_size,obj_food_large,true,true);
+if food_eat_large != noone
 {
-	instance_create_layer(x+irandom_range(choose(-1,1)*500,choose(-1,1)*1000),y+irandom_range(choose(-1,1)*500,choose(-1,1)*1000),0,obj_food);
+	if food_eat_large.speed <= 1
+	{
+		with food_eat_large
+		{
+			instance_destroy();	
+		}
+		player_size += 8;
+		border_size = player_size/12;
+	}
+}
+
+if player_size >= 16 && keyboard_check_pressed(ord("W"))
+{
+    var spawn_dist = player_size; // distance from center to edge
+    var spawn_x = x + lengthdir_x(spawn_dist, image_angle);
+    var spawn_y = y + lengthdir_y(spawn_dist, image_angle);
+
+    instance_create_depth(spawn_x, spawn_y, 0, obj_food_large);
+	player_size -= 8;
+	border_size = player_size/12;
+}
+
+if instance_number(obj_food) < 1000
+{
+	var x_spawn;
+	var y_spawn;
+	
+	x_spawn = x+irandom_range(choose(-1,1)*500,choose(-1,1)*1000);
+	y_spawn = y+irandom_range(choose(-1,1)*500,choose(-1,1)*1000);
+	
+	if place_empty(x_spawn,y_spawn)
+	{
+		instance_create_layer(x_spawn+(choose(-1,1)*player_size),y_spawn+(choose(-1,1)*player_size),0,obj_food);
+	}
+}
+
+if instance_number(obj_enemy) < 8
+{
+	var x_spawn;
+	var y_spawn;
+	
+	x_spawn = x+irandom_range(choose(-1,1)*500,choose(-1,1)*1000);
+	y_spawn = y+irandom_range(choose(-1,1)*500,choose(-1,1)*1000);
+	
+	if place_empty(x_spawn,y_spawn)
+	{
+		instance_create_layer(x_spawn+(choose(-1,1)*player_size),y_spawn+(choose(-1,1)*player_size),0,obj_enemy);
+	}
+}
+
+if instance_number(obj_enemy_aggro) < 8
+{
+	var x_spawn;
+	var y_spawn;
+	
+	x_spawn = x+irandom_range(choose(-1,1)*500,choose(-1,1)*1000);
+	y_spawn = y+irandom_range(choose(-1,1)*500,choose(-1,1)*1000);
+	
+	if place_empty(x_spawn,y_spawn)
+	{
+		instance_create_layer(x_spawn+(choose(-1,1)*player_size),y_spawn+(choose(-1,1)*player_size),0,obj_enemy_aggro);
+	}
+}
+
+if instance_number(obj_enemy_flee) < 8
+{
+	var x_spawn;
+	var y_spawn;
+	
+	x_spawn = x+irandom_range(choose(-1,1)*500,choose(-1,1)*1000);
+	y_spawn = y+irandom_range(choose(-1,1)*500,choose(-1,1)*1000);
+	
+	if place_empty(x_spawn,y_spawn)
+	{
+		instance_create_layer(x_spawn+(choose(-1,1)*player_size),y_spawn+(choose(-1,1)*player_size),0,obj_enemy_flee);
+	}
 }
