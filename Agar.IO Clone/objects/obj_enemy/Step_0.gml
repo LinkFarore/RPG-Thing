@@ -1,6 +1,12 @@
-target = instance_nearest(x,y,obj_food);
+if instance_exists(obj_food)
+{
+	target = instance_nearest(x,y,obj_food);
+}
 
-threat = instance_nearest(x,y,par_enemy);
+if instance_exists(par_enemy)
+{
+	threat = instance_nearest(x,y,par_enemy);
+}
 
 //Turning
 var pd = point_direction(x, y, target.x, target.y);
@@ -62,7 +68,8 @@ var virus_eat = collision_circle(x,y,enemy_size+border_size,obj_virus,true,true)
 if virus_eat != noone
 {
 	
-	if virus_eat.virus_trigger_size > enemy_size
+	if enemy_size > virus_eat.virus_trigger_size * 1.3
+
 	{
 	    with (virus_eat) 
 		{

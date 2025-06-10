@@ -40,9 +40,9 @@ if food_eat != noone
 }
 
 var enemy_eat = collision_circle(x,y,enemy_size+border_size,par_enemy,true,true);
-if enemy_eat != noone
+if enemy_eat != noone && enemy_eat != id
 {
-	if enemy_eat.enemy_size < enemy_size-enemy_size/4
+	if enemy_eat.enemy_size < enemy_size-enemy_size/4 
 	{
 		enemy_size += enemy_eat.enemy_size;
 		border_size = enemy_size/12;
@@ -57,7 +57,8 @@ var virus_eat = collision_circle(x,y,enemy_size+border_size,obj_virus,true,true)
 if virus_eat != noone
 {
 	
-	if virus_eat.virus_trigger_size > enemy_size
+	if enemy_size > virus_eat.virus_trigger_size * 1.3
+
 	{
 	    with (virus_eat) 
 		{

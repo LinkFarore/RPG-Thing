@@ -44,6 +44,7 @@
     {"id":{"name":"spr_food","path":"sprites/spr_food/spr_food.yy",},},
     {"id":{"name":"par_enemy","path":"objects/par_enemy/par_enemy.yy",},},
     {"id":{"name":"obj_food","path":"objects/obj_food/obj_food.yy",},},
+    {"id":{"name":"obj_enemy_smart","path":"objects/obj_enemy_smart/obj_enemy_smart.yy",},},
     {"id":{"name":"obj_enemy_flee","path":"objects/obj_enemy_flee/obj_enemy_flee.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"spr_virus","path":"sprites/spr_virus/spr_virus.yy",},},

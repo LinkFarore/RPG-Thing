@@ -24,6 +24,7 @@
     {"name":"obj_enemy_aggro","order":4,"path":"objects/obj_enemy_aggro/obj_enemy_aggro.yy",},
     {"name":"par_enemy","order":5,"path":"objects/par_enemy/par_enemy.yy",},
     {"name":"obj_food","order":1,"path":"objects/obj_food/obj_food.yy",},
+    {"name":"obj_enemy_smart","order":9,"path":"objects/obj_enemy_smart/obj_enemy_smart.yy",},
     {"name":"obj_enemy_flee","order":6,"path":"objects/obj_enemy_flee/obj_enemy_flee.yy",},
     {"name":"obj_enemy","order":3,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"spr_virus","order":2,"path":"sprites/spr_virus/spr_virus.yy",},
