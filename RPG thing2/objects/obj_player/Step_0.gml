@@ -77,29 +77,57 @@ if healing
 }
 
 //Bow
-if bow_shoot && grounded && sprite_index != spr_bow
+if bow_shoot && grounded && sprite_index != spr_bow && sprite_index != spr_bow_crouch
 {
-	sprite_index = spr_bow;
-	image_index = 0;
-	image_speed = 1.4;
-	healing = false;
+	if (crouch)
+	{
+		sprite_index = spr_bow_crouch;
+		image_index = 0;
+		image_speed = 1.4;
+		healing = false;
+	}
+	else
+	{
+		sprite_index = spr_bow;
+		image_index = 0;
+		image_speed = 1.4;
+		healing = false;
+	}
 }
 
-if sprite_index = spr_bow
+if sprite_index = spr_bow || sprite_index = spr_bow_crouch
 {
 	if image_index = 7
 	{
-		switch(dir)
+		if (crouch)
 		{
-		case -1:	arrowleft = instance_create(x,y-6,obj_arrow); 
-					arrowleft.direction = 180; 
-					break;
-		case 1:		arrowright = instance_create(x,y-6,obj_arrow); 
-					arrowright.direction = 0; 
-					break;
+			switch(dir)
+			{
+				case -1:	arrowleft = instance_create(x,y+8,obj_arrow);
+							arrowleft.direction = 180; 
+							break;
+				case 1:		arrowright = instance_create(x,y+8,obj_arrow); 
+							arrowright.direction = 0; 
+							break;
+			}
+			sprite_index = spr_player_crouch;
+			bow_shoot = false;
 		}
-		sprite_index = spr_player_idle;
-		bow_shoot = false;
+		else
+		{
+			switch(dir)
+			{
+				case -1:	arrowleft = instance_create(x,y-6,obj_arrow); 
+							arrowleft.direction = 180; 
+							break;
+				case 1:		arrowright = instance_create(x,y-6,obj_arrow); 
+							arrowright.direction = 0; 
+							break;
+			}
+			sprite_index = spr_player_idle;
+			bow_shoot = false;
+		}
+		
 	}
 	else
 	{
@@ -179,7 +207,7 @@ else
     if (jumps == jumpsmax) jumps -=1;
 }
 
-if (key_jump) && (jumps > 0) && (!key_down)
+if (key_jump) && (jumps > 0) //&& (!key_down)
 {
     jumps -= 1;
     vsp = -jumpspeed;
@@ -386,9 +414,16 @@ if vsp != 0 && !attack && !instance_exists(par_sword)
 if (vsp < 0) sprite_index = spr_player_jump; else sprite_index = spr_player_fall;
 }
 
-if (crouch) 
+if (crouch)
 {
-sprite_index = spr_player_crouch;
+	if bow_shoot
+	{
+		sprite_index = spr_bow_crouch;
+	}
+	else
+	{
+		sprite_index = spr_player_crouch;
+	}
 }
 else
 {

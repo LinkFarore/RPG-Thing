@@ -1,6 +1,17 @@
 //resets projectile timing
 
-if sprite_index = spr_bow && image_index = 8
+if sprite_index = spr_bow
 {
-	sprite_index = spr_player_idle;
+	if image_index = 8
+	{
+		sprite_index = spr_player_idle;
+	}
+}
+
+if sprite_index = spr_bow_crouch
+{
+	if image_index = 8
+	{
+		sprite_index = spr_player_crouch;
+	}
 }
