@@ -103,10 +103,10 @@ if sprite_index = spr_bow || sprite_index = spr_bow_crouch
 		{
 			switch(dir)
 			{
-				case -1:	arrowleft = instance_create(x,y+8,obj_arrow);
+				case -1:	arrowleft = instance_create(x,y+6,obj_arrow);
 							arrowleft.direction = 180; 
 							break;
-				case 1:		arrowright = instance_create(x,y+8,obj_arrow); 
+				case 1:		arrowright = instance_create(x,y+6,obj_arrow); 
 							arrowright.direction = 0; 
 							break;
 			}
