@@ -8,23 +8,10 @@ if ani = true
     {
         case 0: break;
         case 1: if instance_number(obj_bomb) < 3 {instance_create(x,y,obj_bomb);} break;
-        case 2: if alarm[3] = -1 && sprite_index != spr_bow
+        case 2: if alarm[3] = -1 && sprite_index != spr_bow && sprite_index != spr_bow_crouch
 				{
-					if !(crouch)
-					{
-						bow_shoot = true;
-					}
-
-					if (crouch)
-					{
-						switch(dir)
-						{
-						    case -1: arrowleft = instance_create(x,y+8,obj_arrow); arrowleft.direction = 180; break;
-						    case 1: arrowright = instance_create(x,y+8,obj_arrow); arrowright.direction = 0; break;
-						}
-					}
+					bow_shoot = true;
 					alarm[3] = 5;
-					
 				} break;
         case 3: if !instance_exists(obj_boomerang)
 				{

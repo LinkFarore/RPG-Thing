@@ -392,7 +392,7 @@ if(attack) {exit}
 
 if (move!=0) image_xscale = move;
 
-if (place_meeting(x,y+1,obj_wall)) && !instance_exists(par_sword) && sprite_index != spr_player_heal && sprite_index != spr_bow
+if (place_meeting(x,y+1,obj_wall)) && !instance_exists(par_sword) && sprite_index != spr_player_heal && sprite_index != spr_bow && sprite_index != spr_bow_crouch
 {
     if (move!=0) 
     {
