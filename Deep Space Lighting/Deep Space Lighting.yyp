@@ -80,6 +80,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tilesets","folderPath":"folders/Sprites/tilesets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"beta","folderPath":"folders/Sprites/Player Ship/Ship parts/Weapons/beta.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"beta","folderPath":"folders/Sprites/Player Ship/Ship parts/Hull/beta.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Instructions.pdf","CopyToMask":9223372036854775807,"filePath":"datafiles",},

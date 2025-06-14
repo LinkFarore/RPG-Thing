@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "Hull",
-    "path": "folders/Sprites/Player Ship/Ship parts/Hull.yy",
+    "name": "beta",
+    "path": "folders/Sprites/Player Ship/Ship parts/Hull/beta.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

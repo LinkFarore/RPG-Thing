@@ -31,8 +31,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "Weapons",
-    "path": "folders/Sprites/Player Ship/Ship parts/Weapons.yy",
+    "name": "beta",
+    "path": "folders/Sprites/Player Ship/Ship parts/Weapons/beta.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
