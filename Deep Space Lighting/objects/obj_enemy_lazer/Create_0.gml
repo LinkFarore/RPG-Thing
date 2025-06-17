@@ -5,6 +5,9 @@ sound = false;
 attack = 1;
 wave = 0;
 
+audio_play_sound(snd_lazer,0,false);
+
+/*
 audio_emitter = audio_emitter_create();
 audio_emitter_position(audio_emitter,x,y,0);
 audio_falloff_set_model(audio_falloff_linear_distance);
