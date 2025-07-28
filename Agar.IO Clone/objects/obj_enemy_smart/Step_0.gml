@@ -1,5 +1,7 @@
 // === Virus Avoidance ===
 virus = instance_nearest(x, y, obj_virus);
+avoid_virus = false;
+
 if instance_exists(virus) {
     var dist_to_virus = point_distance(x, y, virus.x, virus.y);
     if dist_to_virus < 120 {
@@ -8,14 +10,28 @@ if instance_exists(virus) {
 }
 
 // === Threat Detection ===
-var nearby_enemies = instance_place_list(x, y, flee_range, par_enemy, true);
-for (var i = 0; i < array_length(nearby_enemies); i++) {
-    var e = nearby_enemies[i];
-    if e.id != id && e.enemy_size > enemy_size * 1.2 {
-        threat = e;
-        mode = "flee";
+var enemy_list = ds_list_create();
+var threat_found = false;
+var threat_candidate;
+
+var count = collision_circle_list(x, y, flee_range, par_enemy, false, true, enemy_list, true);
+
+for (var i = 0; i < count; i++) {
+    var e = enemy_list[| i];
+    if e != id && e.enemy_size > enemy_size * 1.2 {
+        threat_candidate = e;
+        threat_found = true;
         break;
     }
+}
+ds_list_destroy(enemy_list);
+
+if threat_found {
+    threat = threat_candidate;
+    mode = "flee";
+} else {
+    threat = noone;
+    mode = "hunt";
 }
 
 // === Flee Mode ===
@@ -25,41 +41,47 @@ if mode == "flee" && instance_exists(threat) {
     // Avoid virus while fleeing
     if avoid_virus && instance_exists(virus) {
         var virus_dir = point_direction(x, y, virus.x, virus.y);
-        var virus_angle_diff = angle_difference(flee_dir, virus_dir);
-        if abs(virus_angle_diff) < 60 {
-            flee_dir += sign(virus_angle_diff) * 90;
+        var angle_diff = angle_difference(flee_dir, virus_dir);
+        if abs(angle_diff) < 60 {
+            flee_dir += sign(angle_diff) * 90;
         }
     }
 
-    // Turn & move
     var dd = angle_difference(image_angle, flee_dir);
     image_angle -= min(abs(dd), turn_speed) * sign(dd);
     dir = image_angle;
     motion_add(dir, 0.4);
 
-    // Grab food while fleeing
-    var food_flee = collision_circle(x, y, enemy_size + border_size, obj_food, false, false);
-    if food_flee != noone {
+    // Try to grab food while fleeing
+    var food_flee = instance_nearest(x, y, obj_food);
+    if instance_exists(food_flee) {
+        var food_dist = point_distance(x, y, food_flee.x, food_flee.y);
         var food_dir = point_direction(x, y, food_flee.x, food_flee.y);
-        if abs(angle_difference(image_angle, food_dir)) < 45 {
+        if food_dist < 200 && abs(angle_difference(image_angle, food_dir)) < 45 {
             motion_add(image_angle, 0.2);
         }
     }
 }
 else {
     // === Hunt Mode ===
-    nearby_enemies = instance_place_list(x, y, sight_range, par_enemy, true);
-    food = instance_nearest(x, y, obj_food);
+    var hunt_list = ds_list_create();
+    var prey_found = false;
+    var prey_candidate;
 
-    for (var i = 0; i < array_length(nearby_enemies); i++) {
-        var e = nearby_enemies[i];
-        if e.id != id && e.enemy_size < enemy_size * 0.8 {
-            prey = e;
+    var count_hunt = collision_circle_list(x, y, sight_range, par_enemy, false, true, hunt_list, true);
+
+    for (var i = 0; i < count_hunt; i++) {
+        var e = hunt_list[| i];
+        if e != id && e.enemy_size < enemy_size * 0.8 {
+            prey_candidate = e;
+            prey_found = true;
             break;
         }
     }
+    ds_list_destroy(hunt_list);
 
-    if instance_exists(prey) {
+    if prey_found {
+        prey = prey_candidate;
         target = prey;
 
         if previous_target != target {
@@ -69,20 +91,18 @@ else {
         }
 
         if chase_timer > chase_timeout {
-            target = food;
+            target = instance_nearest(x, y, obj_food);
             chase_timer = 0;
         }
     } else {
-        target = food;
+        target = instance_nearest(x, y, obj_food);
         chase_timer = 0;
     }
 
-    // Chase food or prey
     if instance_exists(target) {
         var pd = point_direction(x, y, target.x, target.y);
         var dd = angle_difference(image_angle, pd);
         image_angle -= min(abs(dd), turn_speed) * sign(dd);
-
         dir = image_angle;
         motion_add(dir, 0.25);
     }

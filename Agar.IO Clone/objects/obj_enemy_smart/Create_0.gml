@@ -30,3 +30,5 @@ alarm[0] = 60;
 
 object = obj_enemy_smart;
 owner = id; // default to self
+
+color = choose("cvar_red", "cvar_orange", "cvar_yellow", "cvar_green", "cvar_violet", "cvar_blue");

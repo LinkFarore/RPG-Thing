@@ -100,7 +100,7 @@ if instance_number(obj_food) < 1000
 	}
 }
 
-if instance_number(obj_enemy) < 4
+/*if instance_number(obj_enemy) < 4
 {
 	var x_spawn;
 	var y_spawn;
@@ -140,9 +140,9 @@ if instance_number(obj_enemy_flee) < 4
 	{
 		instance_create_layer(x_spawn+(choose(-1,1)*player_size),y_spawn+(choose(-1,1)*player_size),0,obj_enemy_flee);
 	}
-}
+}*/
 
-if instance_number(obj_enemy_smart) < 4
+if instance_number(obj_enemy_smart) < 8
 {
 	var x_spawn;
 	var y_spawn;
